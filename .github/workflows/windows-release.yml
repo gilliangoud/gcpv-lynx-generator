@@ -25,25 +25,19 @@ jobs:
         cargo build --verbose --release --bin rust-gcpv-lynx-export
         cargo build --verbose --release --bin web_export
 
-    - name: Download mdbtools
+    - name: Rename Binaries
       run: |
-        curl -L -o mdbtools.zip https://github.com/lsgunth/mdbtools-win/releases/download/v1.0.0/mdbtools-win-x86.zip
-        7z x mdbtools.zip -omdbtools
-
-    - name: Prepare Release
-      run: |
-        mkdir release_pack
-        mv target/release/rust-gcpv-lynx-export.exe release_pack/gcpv-lynx-generator.exe
-        mv target/release/web_export.exe release_pack/gcpv-live.exe
-        copy mdbtools\mdbtools-win-x86\* release_pack\
-        cd release_pack
-        7z a ../gcpv-windows-release.zip *
+        cd target/release
+        mv rust-gcpv-lynx-export.exe gcpv-lynx-generator.exe
+        mv web_export.exe gcpv-live.exe
 
     - name: Create Release
       uses: softprops/action-gh-release@v1
       with:
         tag_name: sha-${{ github.sha }}
         name: Release ${{ github.sha }}
-        files: gcpv-windows-release.zip
+        files: |
+          target/release/gcpv-lynx-generator.exe
+          target/release/gcpv-live.exe
         draft: false
         prerelease: false
