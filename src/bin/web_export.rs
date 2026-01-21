@@ -4,14 +4,13 @@ use axum::{
     routing::get,
     Router,
     response::{IntoResponse, Json},
-    http::{Method, HeaderValue},
+    http::Method,
 };
 use tower_http::cors::CorsLayer;
 use std::sync::{Arc, RwLock};
 use std::time::{Duration, Instant};
-use std::thread;
 use tokio::runtime::Runtime;
-use rust_gcpv_lynx_export::app_logic::{fetch_race_data, RaceData};
+use rust_gcpv_lynx_export::app_logic::fetch_race_data;
 use rust_gcpv_lynx_export::writer::generate_race_json;
 use rust_gcpv_lynx_export::writer::JsonRace;
 

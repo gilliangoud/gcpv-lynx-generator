@@ -130,22 +130,94 @@ pub struct TPatVagues {
     pub cle_tpat_vagues: Option<i32>,
 }
 
+fn get_mdb_export_command() -> String {
+    if cfg!(target_os = "windows") {
+        if let Ok(exe_path) = std::env::current_exe() {
+            if let Some(dir) = exe_path.parent() {
+                let local_mdb = dir.join("mdb-export.exe");
+                if local_mdb.exists() {
+                    return local_mdb.to_string_lossy().to_string();
+                }
+            }
+        }
+    }
+    "mdb-export".to_string()
+}
+
 pub fn read_table<T: for<'de> Deserialize<'de>>(file_path: &str, table_name: &str) -> Result<Vec<T>> {
-    let output = Command::new("mdb-export")
+    // Try mdb-export first
+    let output = Command::new(get_mdb_export_command())
         .arg(file_path)
         .arg(table_name)
+        .output();
+
+    match output {
+        Ok(output) if output.status.success() => {
+            let mut reader = csv::Reader::from_reader(output.stdout.as_slice());
+            let mut results = Vec::new();
+            for result in reader.deserialize() {
+                let record: T = result.with_context(|| format!("Failed to deserialize CSV record in table {}", table_name))?;
+                results.push(record);
+            }
+            Ok(results)
+        }
+        err => {
+            // If mdb-export failed, check if we are on Windows and try fallback
+            if cfg!(target_os = "windows") {
+                return read_table_powershell(file_path, table_name)
+                    .context("Both mdb-export and PowerShell fallback failed");
+            }
+            
+            // Otherwise return the original error if it was an execution error, or the failure output
+            match err {
+                Ok(output) => {
+                     Err(anyhow::anyhow!("mdb-export failed for table {}: {}", table_name, String::from_utf8_lossy(&output.stderr)))
+                }
+                Err(e) => Err(anyhow::anyhow!("Failed to execute mdb-export: {}", e)),
+            }
+        }
+    }
+}
+
+#[cfg(target_os = "windows")]
+fn read_table_powershell<T: for<'de> Deserialize<'de>>(file_path: &str, table_name: &str) -> Result<Vec<T>> {
+    let script = format!(
+        "$OutputEncoding = [System.Text.Encoding]::UTF8; \
+         $connString = 'Provider=Microsoft.ACE.OLEDB.12.0;Data Source={};Persist Security Info=False;'; \
+         try {{ $conn = New-Object System.Data.OleDb.OleDbConnection($connString); $conn.Open() }} \
+         catch {{ \
+            $connString = 'Provider=Microsoft.Jet.OLEDB.4.0;Data Source={};Persist Security Info=False;'; \
+            $conn = New-Object System.Data.OleDb.OleDbConnection($connString); \
+            $conn.Open() \
+         }} \
+         $cmd = $conn.CreateCommand(); \
+         $cmd.CommandText = 'SELECT * FROM [{}]'; \
+         $adapter = New-Object System.Data.OleDb.OleDbDataAdapter($cmd); \
+         $dt = New-Object System.Data.DataTable; \
+         $adapter.Fill($dt); \
+         $dt | ConvertTo-Csv -NoTypeInformation",
+        file_path, file_path, table_name
+    );
+
+    let output = Command::new("powershell")
+        .args(&["-NoProfile", "-Command", &script])
         .output()
-        .context("Failed to execute mdb-export")?;
-    
+        .context("Failed to execute PowerShell ADO fallback")?;
+
     if !output.status.success() {
-        return Err(anyhow::anyhow!("mdb-export failed for table {}: {}", table_name, String::from_utf8_lossy(&output.stderr)));
+        return Err(anyhow::anyhow!("PowerShell fallback failed: {}", String::from_utf8_lossy(&output.stderr)));
     }
 
     let mut reader = csv::Reader::from_reader(output.stdout.as_slice());
     let mut results = Vec::new();
     for result in reader.deserialize() {
-        let record: T = result.with_context(|| format!("Failed to deserialize CSV record in table {}", table_name))?;
+        let record: T = result.with_context(|| format!("Failed to deserialize CSV (PowerShell) record in table {}", table_name))?;
         results.push(record);
     }
     Ok(results)
+}
+
+#[cfg(not(target_os = "windows"))]
+fn read_table_powershell<T: for<'de> Deserialize<'de>>(_file_path: &str, _table_name: &str) -> Result<Vec<T>> {
+    Err(anyhow::anyhow!("PowerShell fallback not supported on this OS"))
 }
