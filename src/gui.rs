@@ -21,7 +21,7 @@ impl Default for GcpvApp {
         Self {
             pat_file: "".to_owned(),
             output_folder: "".to_owned(),
-            interval_seconds: 5,
+            interval_seconds: 60,
             running: false,
             last_run: None,
             status_message: "Ready".to_owned(),

@@ -66,7 +66,7 @@ impl Default for WebApp {
         Self {
             pat_file: "".to_owned(),
             port: 3030,
-            interval_seconds: 5,
+            interval_seconds: 60,
             running: false,
             status_message: "Ready".to_owned(),
             shared_data: Arc::new(RwLock::new(Vec::new())),
