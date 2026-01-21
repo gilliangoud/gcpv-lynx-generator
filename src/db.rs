@@ -185,12 +185,12 @@ pub fn read_table<T: for<'de> Deserialize<'de>>(file_path: &str, table_name: &st
     }
 }
 
-#[cfg(target_os = "windows")]
-use odbc_api::{Environment, ConnectionOptions, Cursor};
-#[cfg(target_os = "windows")]
+// #[cfg(target_os = "windows")]
+use odbc_api::{Environment, ConnectionOptions, Cursor, ResultSetMetadata};
+// #[cfg(target_os = "windows")]
 use odbc_api::buffers::TextRowSet;
 
-#[cfg(target_os = "windows")]
+// #[cfg(target_os = "windows")]
 fn read_table_fallback<T: for<'de> Deserialize<'de>>(file_path: &str, table_name: &str) -> Result<Vec<T>> {
     let env = Environment::new()?;
     
@@ -203,37 +203,26 @@ fn read_table_fallback<T: for<'de> Deserialize<'de>>(file_path: &str, table_name
 
     let query = format!("SELECT * FROM [{}]", table_name);
     
-    match conn.execute(&query, ())? {
-        Some(mut cursor) => {
-            let mut results = Vec::new();
-            
-            // Get column names
-            let num_cols = cursor.num_result_cols()?;
-            let mut col_names = Vec::new();
-            for i in 1..=num_cols {
-                let mut name = String::new();
-                cursor.col_name(i as u16, &mut name)?;
-                col_names.push(name);
-            }
+    let maybe_cursor = conn.execute(&query, ())?;
+    
+    if let Some(mut cursor) = maybe_cursor {
+        let mut results = Vec::new();
+        
+        // Get column names
+        let num_cols = cursor.num_result_cols()?;
+        let mut col_names = Vec::new();
+        for i in 1..=num_cols {
+             let name = cursor.col_name(i as u16)?;
+             col_names.push(name);
+        }
 
-            // Iterate rows
-            // For simplicity with generic T, we'll fetch as text and let serde_json try to handle it?
-            // No, as discussed, if T expects int, string "123" might fail in serde_json depending on config.
-            // But usually JSON parsers don't auto-convert string to int.
-            // However, our structs use Option<i32> etc.
-            // Let's try to fetch correct types if possible, or easiest: fetch everything as text and use a custom deserializer?
-            // Actually, `csv` crate deserializes everything from text.
-            // Maybe we should just construct a CSV string from ODBC and feed it to the CSV reader?
-            // That matches the previous logic perfectly and avoids type mapping issues!
-            // Yes, generating dynamic CSV in memory is safer for type compatibility with existing structs.
-            
+        // Processing block to ensure borrows are dropped
+        let csv_data = {
             let batch_size = 500;
-            let mut buffers = TextRowSet::new(batch_size, &cursor)?;
+            let mut buffers = TextRowSet::for_cursor(batch_size, &mut cursor, Some(4096))?;
             let mut row_set_cursor = cursor.bind_buffer(&mut buffers)?;
 
-            // We'll write to a buffer in CSV format
             let mut wtr = csv::WriterBuilder::new().from_writer(Vec::new());
-            // Write headers
             wtr.write_record(&col_names)?;
 
             while let Some(batch) = row_set_cursor.fetch()? {
@@ -246,23 +235,22 @@ fn read_table_fallback<T: for<'de> Deserialize<'de>>(file_path: &str, table_name
                     wtr.write_record(&record)?;
                 }
             }
+            wtr.into_inner()?
+        };
 
-            let data = wtr.into_inner()?;
-            // println!("ODBC CSV: {}", String::from_utf8_lossy(&data));
-
-            let mut reader = csv::Reader::from_reader(data.as_slice());
-            for result in reader.deserialize() {
-                let record: T = result.with_context(|| format!("Failed to deserialize generated CSV record from ODBC for {}", table_name))?;
-                results.push(record);
-            }
-            
-            Ok(results)
-        },
-        None => Ok(Vec::new()), // No results?
+        let mut reader = csv::Reader::from_reader(csv_data.as_slice());
+        for result in reader.deserialize() {
+            let record: T = result.with_context(|| format!("Failed to deserialize generated CSV record from ODBC for {}", table_name))?;
+            results.push(record);
+        }
+        
+        Ok(results)
+    } else {
+        Ok(Vec::new())
     }
 }
 
-#[cfg(not(target_os = "windows"))]
-fn read_table_fallback<T: for<'de> Deserialize<'de>>(_file_path: &str, _table_name: &str) -> Result<Vec<T>> {
-    Err(anyhow::anyhow!("ODBC fallback not supported on this OS"))
-}
+// #[cfg(not(target_os = "windows"))]
+// fn read_table_fallback<T: for<'de> Deserialize<'de>>(_file_path: &str, _table_name: &str) -> Result<Vec<T>> {
+//    Err(anyhow::anyhow!("ODBC fallback not supported on this OS"))
+// }
