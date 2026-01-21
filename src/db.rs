@@ -153,6 +153,11 @@ pub fn read_table<T: for<'de> Deserialize<'de>>(file_path: &str, table_name: &st
 
     match output {
         Ok(output) if output.status.success() => {
+            // Check raw output for debugging
+            if std::env::var("DEBUG_CSV").is_ok() {
+                println!("CSV Output for {}: {}", table_name, String::from_utf8_lossy(&output.stdout));
+            }
+
             let mut reader = csv::Reader::from_reader(output.stdout.as_slice());
             let mut results = Vec::new();
             for result in reader.deserialize() {
@@ -164,8 +169,9 @@ pub fn read_table<T: for<'de> Deserialize<'de>>(file_path: &str, table_name: &st
         err => {
             // If mdb-export failed, check if we are on Windows and try fallback
             if cfg!(target_os = "windows") {
-                return read_table_powershell(file_path, table_name)
-                    .context("Both mdb-export and PowerShell fallback failed");
+                println!("mdb-export not found or failed, trying ODBC fallback for {}", table_name);
+                return read_table_fallback(file_path, table_name)
+                    .context("Both mdb-export and ODBC fallback failed");
             }
             
             // Otherwise return the original error if it was an execution error, or the failure output
@@ -180,44 +186,83 @@ pub fn read_table<T: for<'de> Deserialize<'de>>(file_path: &str, table_name: &st
 }
 
 #[cfg(target_os = "windows")]
-fn read_table_powershell<T: for<'de> Deserialize<'de>>(file_path: &str, table_name: &str) -> Result<Vec<T>> {
-    let script = format!(
-        "$OutputEncoding = [System.Text.Encoding]::UTF8; \
-         $connString = 'Provider=Microsoft.ACE.OLEDB.12.0;Data Source={};Persist Security Info=False;'; \
-         try {{ $conn = New-Object System.Data.OleDb.OleDbConnection($connString); $conn.Open() }} \
-         catch {{ \
-            $connString = 'Provider=Microsoft.Jet.OLEDB.4.0;Data Source={};Persist Security Info=False;'; \
-            $conn = New-Object System.Data.OleDb.OleDbConnection($connString); \
-            $conn.Open() \
-         }} \
-         $cmd = $conn.CreateCommand(); \
-         $cmd.CommandText = 'SELECT * FROM [{}]'; \
-         $adapter = New-Object System.Data.OleDb.OleDbDataAdapter($cmd); \
-         $dt = New-Object System.Data.DataTable; \
-         $adapter.Fill($dt); \
-         $dt | ConvertTo-Csv -NoTypeInformation",
-        file_path, file_path, table_name
-    );
+use odbc_api::{Environment, ConnectionOptions, Cursor};
+#[cfg(target_os = "windows")]
+use odbc_api::buffers::TextRowSet;
 
-    let output = Command::new("powershell")
-        .args(&["-NoProfile", "-Command", &script])
-        .output()
-        .context("Failed to execute PowerShell ADO fallback")?;
+#[cfg(target_os = "windows")]
+fn read_table_fallback<T: for<'de> Deserialize<'de>>(file_path: &str, table_name: &str) -> Result<Vec<T>> {
+    let env = Environment::new()?;
+    
+    // Construct connection string for Access
+    // Driver name might vary "Microsoft Access Driver (*.mdb, *.accdb)" is standard for ACE
+    let conn_string = format!("Driver={{Microsoft Access Driver (*.mdb, *.accdb)}};Dbq={};", file_path);
+    
+    let conn = env.connect_with_connection_string(&conn_string, ConnectionOptions::default())
+        .context("Failed to connect to Access DB via ODBC. Ensure Microsoft Access Database Engine 2016 Redistributable is installed.")?;
 
-    if !output.status.success() {
-        return Err(anyhow::anyhow!("PowerShell fallback failed: {}", String::from_utf8_lossy(&output.stderr)));
+    let query = format!("SELECT * FROM [{}]", table_name);
+    
+    match conn.execute(&query, ())? {
+        Some(mut cursor) => {
+            let mut results = Vec::new();
+            
+            // Get column names
+            let num_cols = cursor.num_result_cols()?;
+            let mut col_names = Vec::new();
+            for i in 1..=num_cols {
+                let mut name = String::new();
+                cursor.col_name(i as u16, &mut name)?;
+                col_names.push(name);
+            }
+
+            // Iterate rows
+            // For simplicity with generic T, we'll fetch as text and let serde_json try to handle it?
+            // No, as discussed, if T expects int, string "123" might fail in serde_json depending on config.
+            // But usually JSON parsers don't auto-convert string to int.
+            // However, our structs use Option<i32> etc.
+            // Let's try to fetch correct types if possible, or easiest: fetch everything as text and use a custom deserializer?
+            // Actually, `csv` crate deserializes everything from text.
+            // Maybe we should just construct a CSV string from ODBC and feed it to the CSV reader?
+            // That matches the previous logic perfectly and avoids type mapping issues!
+            // Yes, generating dynamic CSV in memory is safer for type compatibility with existing structs.
+            
+            let batch_size = 500;
+            let mut buffers = TextRowSet::new(batch_size, &cursor)?;
+            let mut row_set_cursor = cursor.bind_buffer(&mut buffers)?;
+
+            // We'll write to a buffer in CSV format
+            let mut wtr = csv::WriterBuilder::new().from_writer(Vec::new());
+            // Write headers
+            wtr.write_record(&col_names)?;
+
+            while let Some(batch) = row_set_cursor.fetch()? {
+                for i in 0..batch.num_rows() {
+                    let mut record = Vec::new();
+                    for col_idx in 0..num_cols {
+                        let val = batch.at(col_idx as usize, i).unwrap_or(&[]);
+                        record.push(String::from_utf8_lossy(val).to_string());
+                    }
+                    wtr.write_record(&record)?;
+                }
+            }
+
+            let data = wtr.into_inner()?;
+            // println!("ODBC CSV: {}", String::from_utf8_lossy(&data));
+
+            let mut reader = csv::Reader::from_reader(data.as_slice());
+            for result in reader.deserialize() {
+                let record: T = result.with_context(|| format!("Failed to deserialize generated CSV record from ODBC for {}", table_name))?;
+                results.push(record);
+            }
+            
+            Ok(results)
+        },
+        None => Ok(Vec::new()), // No results?
     }
-
-    let mut reader = csv::Reader::from_reader(output.stdout.as_slice());
-    let mut results = Vec::new();
-    for result in reader.deserialize() {
-        let record: T = result.with_context(|| format!("Failed to deserialize CSV (PowerShell) record in table {}", table_name))?;
-        results.push(record);
-    }
-    Ok(results)
 }
 
 #[cfg(not(target_os = "windows"))]
-fn read_table_powershell<T: for<'de> Deserialize<'de>>(_file_path: &str, _table_name: &str) -> Result<Vec<T>> {
-    Err(anyhow::anyhow!("PowerShell fallback not supported on this OS"))
+fn read_table_fallback<T: for<'de> Deserialize<'de>>(_file_path: &str, _table_name: &str) -> Result<Vec<T>> {
+    Err(anyhow::anyhow!("ODBC fallback not supported on this OS"))
 }
