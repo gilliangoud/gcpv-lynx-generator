@@ -145,7 +145,12 @@ fn get_mdb_export_command() -> String {
 }
 
 pub fn read_table<T: for<'de> Deserialize<'de>>(file_path: &str, table_name: &str) -> Result<Vec<T>> {
-    // Try mdb-export first
+    // On Windows, prioritize ODBC since we don't bundle mdbtools anymore
+    if cfg!(target_os = "windows") {
+        return read_table_fallback(file_path, table_name);
+    }
+
+    // Try mdb-export on other platforms (or if fallback explicitly called later? No, strict separation)
     let output = Command::new(get_mdb_export_command())
         .arg(file_path)
         .arg(table_name)
@@ -153,11 +158,9 @@ pub fn read_table<T: for<'de> Deserialize<'de>>(file_path: &str, table_name: &st
 
     match output {
         Ok(output) if output.status.success() => {
-            // Check raw output for debugging
             if std::env::var("DEBUG_CSV").is_ok() {
                 println!("CSV Output for {}: {}", table_name, String::from_utf8_lossy(&output.stdout));
             }
-
             let mut reader = csv::Reader::from_reader(output.stdout.as_slice());
             let mut results = Vec::new();
             for result in reader.deserialize() {
@@ -167,14 +170,6 @@ pub fn read_table<T: for<'de> Deserialize<'de>>(file_path: &str, table_name: &st
             Ok(results)
         }
         err => {
-            // If mdb-export failed, check if we are on Windows and try fallback
-            if cfg!(target_os = "windows") {
-                println!("mdb-export not found or failed, trying ODBC fallback for {}", table_name);
-                return read_table_fallback(file_path, table_name)
-                    .context("Both mdb-export and ODBC fallback failed");
-            }
-            
-            // Otherwise return the original error if it was an execution error, or the failure output
             match err {
                 Ok(output) => {
                      Err(anyhow::anyhow!("mdb-export failed for table {}: {}", table_name, String::from_utf8_lossy(&output.stderr)))
@@ -193,22 +188,15 @@ use odbc_api::buffers::TextRowSet;
 #[cfg(target_os = "windows")]
 fn read_table_fallback<T: for<'de> Deserialize<'de>>(file_path: &str, table_name: &str) -> Result<Vec<T>> {
     let env = Environment::new()?;
-    
-    // Construct connection string for Access
-    // Driver name might vary "Microsoft Access Driver (*.mdb, *.accdb)" is standard for ACE
     let conn_string = format!("Driver={{Microsoft Access Driver (*.mdb, *.accdb)}};Dbq={};", file_path);
-    
     let conn = env.connect_with_connection_string(&conn_string, ConnectionOptions::default())
         .context("Failed to connect to Access DB via ODBC. Ensure Microsoft Access Database Engine 2016 Redistributable is installed.")?;
 
     let query = format!("SELECT * FROM [{}]", table_name);
-    
     let maybe_cursor = conn.execute(&query, ())?;
     
     if let Some(mut cursor) = maybe_cursor {
         let mut results = Vec::new();
-        
-        // Get column names
         let num_cols = cursor.num_result_cols()?;
         let mut col_names = Vec::new();
         for i in 1..=num_cols {
@@ -216,13 +204,10 @@ fn read_table_fallback<T: for<'de> Deserialize<'de>>(file_path: &str, table_name
              col_names.push(name);
         }
 
-        // Processing block to ensure borrows are dropped
         let csv_data = {
             let batch_size = 500;
-            // Use for_cursor to automatically create text buffers for all columns
             let mut buffers = TextRowSet::for_cursor(batch_size, &mut cursor, Some(4096))?;
             let mut row_set_cursor = cursor.bind_buffer(&mut buffers)?;
-
             let mut wtr = csv::WriterBuilder::new().from_writer(Vec::new());
             wtr.write_record(&col_names)?;
 
@@ -232,8 +217,6 @@ fn read_table_fallback<T: for<'de> Deserialize<'de>>(file_path: &str, table_name
                     for col_idx in 0..num_cols {
                         let val = batch.at(col_idx as usize, i).unwrap_or(&[]);
                         let val_str = String::from_utf8_lossy(val).to_string();
-                        // Access ODBC driver sometimes returns integers as "123.0"
-                        // Since we deal with loosely typed CSV, we can strip ".0" suffix if present
                         if val_str.ends_with(".0") {
                             record.push(val_str.trim_end_matches(".0").to_string());
                         } else {
@@ -246,26 +229,11 @@ fn read_table_fallback<T: for<'de> Deserialize<'de>>(file_path: &str, table_name
             wtr.into_inner()?
         };
 
-        // Deserialize with diagnostics
         let mut reader = csv::Reader::from_reader(csv_data.as_slice());
-        let headers = reader.headers().cloned().unwrap_or_default();
-        
-        let mut records = reader.records();
-        while let Some(r) = records.next() {
-            let record = r.context("Failed to read generated CSV record")?;
-            let t_result: Result<T, _> = record.deserialize(Some(&headers));
-            match t_result {
-                Ok(rec) => results.push(rec),
-                Err(e) => {
-                    eprintln!("Failed to deserialize record in table {}", table_name);
-                    eprintln!("Headers: {:?}", headers);
-                    eprintln!("Record: {:?}", record);
-                    eprintln!("Error: {}", e);
-                    return Err(anyhow::anyhow!("ODBC Deserialization Error in {}: {}", table_name, e));
-                }
-            }
+        for result in reader.deserialize() {
+            let record: T = result.with_context(|| format!("Failed to deserialize generated CSV record from ODBC for {}", table_name))?;
+            results.push(record);
         }
-        
         Ok(results)
     } else {
         Ok(Vec::new())
