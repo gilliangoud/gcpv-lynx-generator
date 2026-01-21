@@ -1,12 +1,5 @@
 use eframe::egui;
-
-mod db;
-mod logic;
-mod writer;
-mod app_logic;
-mod gui;
-
-use gui::GcpvApp;
+use rust_gcpv_lynx_export::gui::GcpvApp;
 
 fn main() -> eframe::Result<()> {
     let native_options = eframe::NativeOptions {

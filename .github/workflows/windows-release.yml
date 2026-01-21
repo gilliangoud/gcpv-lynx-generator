@@ -21,18 +21,23 @@ jobs:
       uses: Swatinem/rust-cache@v2
 
     - name: Build
-      run: cargo build --verbose --release
+      run: |
+        cargo build --verbose --release --bin rust-gcpv-lynx-export
+        cargo build --verbose --release --bin web_export
 
-    - name: Rename Binary
+    - name: Rename Binaries
       run: |
         cd target/release
         mv rust-gcpv-lynx-export.exe gcpv-lynx-generator.exe
+        mv web_export.exe gcpv-live.exe
 
     - name: Create Release
       uses: softprops/action-gh-release@v1
       with:
         tag_name: sha-${{ github.sha }}
         name: Release ${{ github.sha }}
-        files: target/release/gcpv-lynx-generator.exe
+        files: |
+          target/release/gcpv-lynx-generator.exe
+          target/release/gcpv-live.exe
         draft: false
         prerelease: false
