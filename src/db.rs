@@ -185,12 +185,12 @@ pub fn read_table<T: for<'de> Deserialize<'de>>(file_path: &str, table_name: &st
     }
 }
 
-// #[cfg(target_os = "windows")]
+#[cfg(target_os = "windows")]
 use odbc_api::{Environment, ConnectionOptions, Cursor, ResultSetMetadata};
-// #[cfg(target_os = "windows")]
+#[cfg(target_os = "windows")]
 use odbc_api::buffers::TextRowSet;
 
-// #[cfg(target_os = "windows")]
+#[cfg(target_os = "windows")]
 fn read_table_fallback<T: for<'de> Deserialize<'de>>(file_path: &str, table_name: &str) -> Result<Vec<T>> {
     let env = Environment::new()?;
     
@@ -219,6 +219,7 @@ fn read_table_fallback<T: for<'de> Deserialize<'de>>(file_path: &str, table_name
         // Processing block to ensure borrows are dropped
         let csv_data = {
             let batch_size = 500;
+            // Use for_cursor to automatically create text buffers for all columns
             let mut buffers = TextRowSet::for_cursor(batch_size, &mut cursor, Some(4096))?;
             let mut row_set_cursor = cursor.bind_buffer(&mut buffers)?;
 
@@ -238,10 +239,24 @@ fn read_table_fallback<T: for<'de> Deserialize<'de>>(file_path: &str, table_name
             wtr.into_inner()?
         };
 
+        // Deserialize with diagnostics
         let mut reader = csv::Reader::from_reader(csv_data.as_slice());
-        for result in reader.deserialize() {
-            let record: T = result.with_context(|| format!("Failed to deserialize generated CSV record from ODBC for {}", table_name))?;
-            results.push(record);
+        let headers = reader.headers().cloned().unwrap_or_default();
+        
+        let mut records = reader.records();
+        while let Some(r) = records.next() {
+            let record = r.context("Failed to read generated CSV record")?;
+            let t_result: Result<T, _> = record.deserialize(Some(&headers));
+            match t_result {
+                Ok(rec) => results.push(rec),
+                Err(e) => {
+                    eprintln!("Failed to deserialize record in table {}", table_name);
+                    eprintln!("Headers: {:?}", headers);
+                    eprintln!("Record: {:?}", record);
+                    eprintln!("Error: {}", e);
+                    return Err(anyhow::anyhow!("ODBC Deserialization Error in {}: {}", table_name, e));
+                }
+            }
         }
         
         Ok(results)
@@ -250,7 +265,7 @@ fn read_table_fallback<T: for<'de> Deserialize<'de>>(file_path: &str, table_name
     }
 }
 
-// #[cfg(not(target_os = "windows"))]
-// fn read_table_fallback<T: for<'de> Deserialize<'de>>(_file_path: &str, _table_name: &str) -> Result<Vec<T>> {
-//    Err(anyhow::anyhow!("ODBC fallback not supported on this OS"))
-// }
+#[cfg(not(target_os = "windows"))]
+fn read_table_fallback<T: for<'de> Deserialize<'de>>(_file_path: &str, _table_name: &str) -> Result<Vec<T>> {
+   Err(anyhow::anyhow!("ODBC fallback not supported on this OS"))
+}
