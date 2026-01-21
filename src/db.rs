@@ -231,7 +231,14 @@ fn read_table_fallback<T: for<'de> Deserialize<'de>>(file_path: &str, table_name
                     let mut record = Vec::new();
                     for col_idx in 0..num_cols {
                         let val = batch.at(col_idx as usize, i).unwrap_or(&[]);
-                        record.push(String::from_utf8_lossy(val).to_string());
+                        let val_str = String::from_utf8_lossy(val).to_string();
+                        // Access ODBC driver sometimes returns integers as "123.0"
+                        // Since we deal with loosely typed CSV, we can strip ".0" suffix if present
+                        if val_str.ends_with(".0") {
+                            record.push(val_str.trim_end_matches(".0").to_string());
+                        } else {
+                            record.push(val_str);
+                        }
                     }
                     wtr.write_record(&record)?;
                 }
