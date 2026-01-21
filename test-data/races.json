@@ -1,0 +1,4906 @@
+[
+  {
+    "name": "1A",
+    "title": "1A - 400m  Club Skaters Div 1 (100m)",
+    "event": "1",
+    "heat": 1,
+    "group": "Club Skaters Div 1",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 101,
+        "name": "Seoeun KU",
+        "lastName": "KU",
+        "firstName": "Seoeun",
+        "affiliation": "POCO",
+        "competitorId": "303313"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 204,
+        "name": "Max HAAHEIM",
+        "lastName": "HAAHEIM",
+        "firstName": "Max",
+        "affiliation": "KEL",
+        "competitorId": "203879"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 208,
+        "name": "Jeremy LI",
+        "lastName": "LI",
+        "firstName": "Jeremy",
+        "affiliation": "RICH",
+        "competitorId": "300235"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 210,
+        "name": "Oscar LIU",
+        "lastName": "LIU",
+        "firstName": "Oscar",
+        "affiliation": "POCO",
+        "competitorId": "314832"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 213,
+        "name": "Felix DENNILL",
+        "lastName": "DENNILL",
+        "firstName": "Felix",
+        "affiliation": "SARD",
+        "competitorId": "314926"
+      }
+    ]
+  },
+  {
+    "name": "1B",
+    "title": "1B - 400m  Club Skaters Div 1 (100m)",
+    "event": "1",
+    "heat": 2,
+    "group": "Club Skaters Div 1",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 201,
+        "name": "Anbo WANG",
+        "lastName": "WANG",
+        "firstName": "Anbo",
+        "affiliation": "VAN",
+        "competitorId": "308873"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 205,
+        "name": "Zhiji DONG",
+        "lastName": "DONG",
+        "firstName": "Zhiji",
+        "affiliation": "LAN",
+        "competitorId": "302589"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 102,
+        "name": "Kailey WONG",
+        "lastName": "WONG",
+        "firstName": "Kailey",
+        "affiliation": "RICH",
+        "competitorId": "312627"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 211,
+        "name": "Isaac MEISL",
+        "lastName": "MEISL",
+        "firstName": "Isaac",
+        "affiliation": "PEN",
+        "competitorId": "309605"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 214,
+        "name": "Aiden KIM",
+        "lastName": "KIM",
+        "firstName": "Aiden",
+        "affiliation": "BURN",
+        "competitorId": "319047"
+      }
+    ]
+  },
+  {
+    "name": "1C",
+    "title": "1C - 400m  Club Skaters Div 1 (100m)",
+    "event": "1",
+    "heat": 3,
+    "group": "Club Skaters Div 1",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 202,
+        "name": "Skyler Jino CHU",
+        "lastName": "CHU",
+        "firstName": "Skyler Jino",
+        "affiliation": "RICH",
+        "competitorId": "307141"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 206,
+        "name": "Luke LI",
+        "lastName": "LI",
+        "firstName": "Luke",
+        "affiliation": "POCO",
+        "competitorId": "310624"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 103,
+        "name": "Adalynn LIU",
+        "lastName": "LIU",
+        "firstName": "Adalynn",
+        "affiliation": "POCO",
+        "competitorId": "308159"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 104,
+        "name": "Gianna WONG",
+        "lastName": "WONG",
+        "firstName": "Gianna",
+        "affiliation": "RICH",
+        "competitorId": "312628"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 105,
+        "name": "Ellie LEUNG",
+        "lastName": "LEUNG",
+        "firstName": "Ellie",
+        "affiliation": "RICH",
+        "competitorId": "323296"
+      }
+    ]
+  },
+  {
+    "name": "1D",
+    "title": "1D - 400m  Club Skaters Div 1 (100m)",
+    "event": "1",
+    "heat": 4,
+    "group": "Club Skaters Div 1",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 203,
+        "name": "Jayden LI",
+        "lastName": "LI",
+        "firstName": "Jayden",
+        "affiliation": "RICH",
+        "competitorId": "302965"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 207,
+        "name": "Arlo EASON",
+        "lastName": "EASON",
+        "firstName": "Arlo",
+        "affiliation": "KEL",
+        "competitorId": "208670"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 209,
+        "name": "Soren CASTELLAN",
+        "lastName": "CASTELLAN",
+        "firstName": "Soren",
+        "affiliation": "ESQ",
+        "competitorId": "307422"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 212,
+        "name": "HARRISON WIEBE",
+        "lastName": "WIEBE",
+        "firstName": "HARRISON",
+        "affiliation": "KEL",
+        "competitorId": "300388"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 106,
+        "name": "Patience MATHEWSON",
+        "lastName": "MATHEWSON",
+        "firstName": "Patience",
+        "affiliation": "PEN",
+        "competitorId": "300705"
+      }
+    ]
+  },
+  {
+    "name": "2A",
+    "title": "2A - 400m  Club Skaters Div 2 (100m)",
+    "event": "2",
+    "heat": 1,
+    "group": "Club Skaters Div 2",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 107,
+        "name": "Mariana FIQUITIVA DURAN",
+        "lastName": "FIQUITIVA DURAN",
+        "firstName": "Mariana",
+        "affiliation": "RM",
+        "competitorId": "318100"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 109,
+        "name": "Seri LEE",
+        "lastName": "LEE",
+        "firstName": "Seri",
+        "affiliation": "RICH",
+        "competitorId": "309442"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 217,
+        "name": "Timothy SONG",
+        "lastName": "SONG",
+        "firstName": "Timothy",
+        "affiliation": "POCO",
+        "competitorId": "301016"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 221,
+        "name": "Leo ZENG",
+        "lastName": "ZENG",
+        "firstName": "Leo",
+        "affiliation": "POCO",
+        "competitorId": "318259"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 115,
+        "name": "Avery WALSH",
+        "lastName": "WALSH",
+        "firstName": "Avery",
+        "affiliation": "PG",
+        "competitorId": "307538"
+      }
+    ]
+  },
+  {
+    "name": "2B",
+    "title": "2B - 400m  Club Skaters Div 2 (100m)",
+    "event": "2",
+    "heat": 2,
+    "group": "Club Skaters Div 2",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 108,
+        "name": "Maya ANTOINE",
+        "lastName": "ANTOINE",
+        "firstName": "Maya",
+        "affiliation": "KAM",
+        "competitorId": "207056"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 110,
+        "name": "Leyla UNLU",
+        "lastName": "UNLU",
+        "firstName": "Leyla",
+        "affiliation": "PEN",
+        "competitorId": "307309"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 218,
+        "name": "Lorcan DUFFY",
+        "lastName": "DUFFY",
+        "firstName": "Lorcan",
+        "affiliation": "BURN",
+        "competitorId": "305555"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 222,
+        "name": "Allen LI",
+        "lastName": "LI",
+        "firstName": "Allen",
+        "affiliation": "RICH",
+        "competitorId": "319613"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 224,
+        "name": "Elias SONG",
+        "lastName": "SONG",
+        "firstName": "Elias",
+        "affiliation": "KEL",
+        "competitorId": "307521"
+      }
+    ]
+  },
+  {
+    "name": "2C",
+    "title": "2C - 400m  Club Skaters Div 2 (100m)",
+    "event": "2",
+    "heat": 3,
+    "group": "Club Skaters Div 2",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 215,
+        "name": "Logan KELLY-JALBERT",
+        "lastName": "KELLY-JALBERT",
+        "firstName": "Logan",
+        "affiliation": "WL",
+        "competitorId": "207060"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 111,
+        "name": "Miyako FREWIN",
+        "lastName": "FREWIN",
+        "firstName": "Miyako",
+        "affiliation": "VAN",
+        "competitorId": "302733"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 220,
+        "name": "Waylan MATTE",
+        "lastName": "MATTE",
+        "firstName": "Waylan",
+        "affiliation": "PG",
+        "competitorId": "319604"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 114,
+        "name": "Anna MCINTOSH",
+        "lastName": "MCINTOSH",
+        "firstName": "Anna",
+        "affiliation": "PG",
+        "competitorId": "300371"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 225,
+        "name": "Jyun LI",
+        "lastName": "LI",
+        "firstName": "Jyun",
+        "affiliation": "BURN",
+        "competitorId": "321756"
+      }
+    ]
+  },
+  {
+    "name": "2D",
+    "title": "2D - 400m  Club Skaters Div 2 (100m)",
+    "event": "2",
+    "heat": 4,
+    "group": "Club Skaters Div 2",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 216,
+        "name": "Ethan REN",
+        "lastName": "REN",
+        "firstName": "Ethan",
+        "affiliation": "LAN",
+        "competitorId": "323427"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 112,
+        "name": "Mykenzie ACTON",
+        "lastName": "ACTON",
+        "firstName": "Mykenzie",
+        "affiliation": "KEL",
+        "competitorId": "201383"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 219,
+        "name": "Kynton POON",
+        "lastName": "POON",
+        "firstName": "Kynton",
+        "affiliation": "RICH",
+        "competitorId": "323364"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 223,
+        "name": "Vincent SIKORA",
+        "lastName": "SIKORA",
+        "firstName": "Vincent",
+        "affiliation": "KAM",
+        "competitorId": "313589"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 113,
+        "name": "Kinsey HANK",
+        "lastName": "HANK",
+        "firstName": "Kinsey",
+        "affiliation": "KEL",
+        "competitorId": "208851"
+      }
+    ]
+  },
+  {
+    "name": "3A",
+    "title": "3A - 400m  Youth Female (100m)",
+    "event": "3",
+    "heat": 1,
+    "group": "Youth Female",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 116,
+        "name": "Gloria HAN",
+        "lastName": "HAN",
+        "firstName": "Gloria",
+        "affiliation": "POCO",
+        "competitorId": "300836"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 121,
+        "name": "Paulina DAVYDOVA",
+        "lastName": "DAVYDOVA",
+        "firstName": "Paulina",
+        "affiliation": "PEN",
+        "competitorId": "103916"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 127,
+        "name": "Laon KIM",
+        "lastName": "KIM",
+        "firstName": "Laon",
+        "affiliation": "BURN",
+        "competitorId": "316859"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 132,
+        "name": "Emily WALSH",
+        "lastName": "WALSH",
+        "firstName": "Emily",
+        "affiliation": "PG",
+        "competitorId": "303633"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 137,
+        "name": "Audrey CHUAH",
+        "lastName": "CHUAH",
+        "firstName": "Audrey",
+        "affiliation": "RICH",
+        "competitorId": "323306"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 142,
+        "name": "Skye NAPIER",
+        "lastName": "NAPIER",
+        "firstName": "Skye",
+        "affiliation": "POCO",
+        "competitorId": "305395"
+      }
+    ]
+  },
+  {
+    "name": "3B",
+    "title": "3B - 400m  Youth Female (100m)",
+    "event": "3",
+    "heat": 2,
+    "group": "Youth Female",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 117,
+        "name": "Alessa LAUT",
+        "lastName": "LAUT",
+        "firstName": "Alessa",
+        "affiliation": "MISS",
+        "competitorId": "300840"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 122,
+        "name": "Addison HANK",
+        "lastName": "HANK",
+        "firstName": "Addison",
+        "affiliation": "KEL",
+        "competitorId": "120813"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 128,
+        "name": "Reya ZHAO",
+        "lastName": "ZHAO",
+        "firstName": "Reya",
+        "affiliation": "BURN",
+        "competitorId": "303118"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 133,
+        "name": "Sylvia LANG",
+        "lastName": "LANG",
+        "firstName": "Sylvia",
+        "affiliation": "POCO",
+        "competitorId": "307604"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 138,
+        "name": "Kamea HUDYMA",
+        "lastName": "HUDYMA",
+        "firstName": "Kamea",
+        "affiliation": "PG",
+        "competitorId": "110617"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 143,
+        "name": "Quinn KISS",
+        "lastName": "KISS",
+        "firstName": "Quinn",
+        "affiliation": "PEN",
+        "competitorId": "325758"
+      }
+    ]
+  },
+  {
+    "name": "3C",
+    "title": "3C - 400m  Youth Female (100m)",
+    "event": "3",
+    "heat": 3,
+    "group": "Youth Female",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 118,
+        "name": "Yaxuan GUO",
+        "lastName": "GUO",
+        "firstName": "Yaxuan",
+        "affiliation": "RICH",
+        "competitorId": "312890"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 123,
+        "name": "Monet LEGAULT-GIRAUD",
+        "lastName": "LEGAULT-GIRAUD",
+        "firstName": "Monet",
+        "affiliation": "VAN",
+        "competitorId": "104404"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 129,
+        "name": "Linna ZEIBIN",
+        "lastName": "ZEIBIN",
+        "firstName": "Linna",
+        "affiliation": "VAN",
+        "competitorId": "306228"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 134,
+        "name": "Chloe LEE",
+        "lastName": "LEE",
+        "firstName": "Chloe",
+        "affiliation": "BURN",
+        "competitorId": "214035"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 139,
+        "name": "Hannah OSUGI-FRIEDEL",
+        "lastName": "OSUGI-FRIEDEL",
+        "firstName": "Hannah",
+        "affiliation": "VAN",
+        "competitorId": "300367"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 144,
+        "name": "Chloe MIAO",
+        "lastName": "MIAO",
+        "firstName": "Chloe",
+        "affiliation": "POCO",
+        "competitorId": "302531"
+      }
+    ]
+  },
+  {
+    "name": "3D",
+    "title": "3D - 400m  Youth Female (100m)",
+    "event": "3",
+    "heat": 4,
+    "group": "Youth Female",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 119,
+        "name": "Kayleigh ROBERTS",
+        "lastName": "ROBERTS",
+        "firstName": "Kayleigh",
+        "affiliation": "KAM",
+        "competitorId": "101488"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 124,
+        "name": "Alexandra MUELLER",
+        "lastName": "MUELLER",
+        "firstName": "Alexandra",
+        "affiliation": "SARD",
+        "competitorId": "303655"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 130,
+        "name": "Carly BASTIEN",
+        "lastName": "BASTIEN",
+        "firstName": "Carly",
+        "affiliation": "RICH",
+        "competitorId": "313294"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 135,
+        "name": "Beah BRAUN",
+        "lastName": "BRAUN",
+        "firstName": "Beah",
+        "affiliation": "BURN",
+        "competitorId": "302910"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 140,
+        "name": "Ninoc CASTELLAN",
+        "lastName": "CASTELLAN",
+        "firstName": "Ninoc",
+        "affiliation": "ESQ",
+        "competitorId": "304697"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 145,
+        "name": "Derya MCKINNON-BUBEROGLU",
+        "lastName": "MCKINNON-BUBEROGLU",
+        "firstName": "Derya",
+        "affiliation": "ESQ",
+        "competitorId": "122681"
+      }
+    ]
+  },
+  {
+    "name": "3E",
+    "title": "3E - 400m  Youth Female (100m)",
+    "event": "3",
+    "heat": 5,
+    "group": "Youth Female",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 120,
+        "name": "Alexa LIM",
+        "lastName": "LIM",
+        "firstName": "Alexa",
+        "affiliation": "LAN",
+        "competitorId": "300842"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 126,
+        "name": "April BAIN",
+        "lastName": "BAIN",
+        "firstName": "April",
+        "affiliation": "BURN",
+        "competitorId": "312354"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 131,
+        "name": "Tatum BAILEY",
+        "lastName": "BAILEY",
+        "firstName": "Tatum",
+        "affiliation": "PEN",
+        "competitorId": "300760"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 136,
+        "name": "Hallie SADEGUR",
+        "lastName": "SADEGUR",
+        "firstName": "Hallie",
+        "affiliation": "KAM",
+        "competitorId": "104958"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 141,
+        "name": "Grace MADSEN",
+        "lastName": "MADSEN",
+        "firstName": "Grace",
+        "affiliation": "ESQ",
+        "competitorId": "300873"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 146,
+        "name": "Hunter LIU",
+        "lastName": "LIU",
+        "firstName": "Hunter",
+        "affiliation": "VAN",
+        "competitorId": "314238"
+      }
+    ]
+  },
+  {
+    "name": "4A",
+    "title": "4A - 400m  Youth Male (100m)",
+    "event": "4",
+    "heat": 1,
+    "group": "Youth Male",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 226,
+        "name": "Zion CHOI",
+        "lastName": "CHOI",
+        "firstName": "Zion",
+        "affiliation": "POCO",
+        "competitorId": "213566"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 238,
+        "name": "Ross MATHEWSON",
+        "lastName": "MATHEWSON",
+        "firstName": "Ross",
+        "affiliation": "PEN",
+        "competitorId": "121453"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 246,
+        "name": "Andy MAI",
+        "lastName": "MAI",
+        "firstName": "Andy",
+        "affiliation": "POCO",
+        "competitorId": "309368"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 254,
+        "name": "Vincent LIAO",
+        "lastName": "LIAO",
+        "firstName": "Vincent",
+        "affiliation": "RICH",
+        "competitorId": "309085"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 236,
+        "name": "Aaron TANG",
+        "lastName": "TANG",
+        "firstName": "Aaron",
+        "affiliation": "POCO",
+        "competitorId": "307770"
+      }
+    ]
+  },
+  {
+    "name": "4B",
+    "title": "4B - 400m  Youth Male (100m)",
+    "event": "4",
+    "heat": 2,
+    "group": "Youth Male",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 227,
+        "name": "Zion PARK",
+        "lastName": "PARK",
+        "firstName": "Zion",
+        "affiliation": "POCO",
+        "competitorId": "300885"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 240,
+        "name": "Juhan KANG",
+        "lastName": "KANG",
+        "firstName": "Juhan",
+        "affiliation": "POCO",
+        "competitorId": "302280"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 247,
+        "name": "Justin LEE",
+        "lastName": "LEE",
+        "firstName": "Justin",
+        "affiliation": "BURN",
+        "competitorId": "214034"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 256,
+        "name": "Lucas CHEN",
+        "lastName": "CHEN",
+        "firstName": "Lucas",
+        "affiliation": "POCO",
+        "competitorId": "318579"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 235,
+        "name": "Nathan XU",
+        "lastName": "XU",
+        "firstName": "Nathan",
+        "affiliation": "POCO",
+        "competitorId": "302340"
+      }
+    ]
+  },
+  {
+    "name": "4C",
+    "title": "4C - 400m  Youth Male (100m)",
+    "event": "4",
+    "heat": 3,
+    "group": "Youth Male",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 228,
+        "name": "Surya RAJESH",
+        "lastName": "RAJESH",
+        "firstName": "Surya",
+        "affiliation": "LAN",
+        "competitorId": "210266"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 241,
+        "name": "Ashton LOLAND",
+        "lastName": "LOLAND",
+        "firstName": "Ashton",
+        "affiliation": "KAM",
+        "competitorId": "203769"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 248,
+        "name": "Phillip COCKING",
+        "lastName": "COCKING",
+        "firstName": "Phillip",
+        "affiliation": "POCO",
+        "competitorId": "310644"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 255,
+        "name": "Kingston CALDER",
+        "lastName": "CALDER",
+        "firstName": "Kingston",
+        "affiliation": "MISS",
+        "competitorId": "307792"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 232,
+        "name": "Adam YANG",
+        "lastName": "YANG",
+        "firstName": "Adam",
+        "affiliation": "BURN",
+        "competitorId": "303253"
+      }
+    ]
+  },
+  {
+    "name": "4D",
+    "title": "4D - 400m  Youth Male (100m)",
+    "event": "4",
+    "heat": 4,
+    "group": "Youth Male",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 229,
+        "name": "Ethan LEUNG",
+        "lastName": "LEUNG",
+        "firstName": "Ethan",
+        "affiliation": "RICH",
+        "competitorId": "300942"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 242,
+        "name": "Lucas KOPP",
+        "lastName": "KOPP",
+        "firstName": "Lucas",
+        "affiliation": "KAM",
+        "competitorId": "203763"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 249,
+        "name": "Anhao QIAO",
+        "lastName": "QIAO",
+        "firstName": "Anhao",
+        "affiliation": "VAN",
+        "competitorId": "121325"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 257,
+        "name": "Andrew KONG",
+        "lastName": "KONG",
+        "firstName": "Andrew",
+        "affiliation": "VAN",
+        "competitorId": "314610"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 244,
+        "name": "Nicolas YI",
+        "lastName": "YI",
+        "firstName": "Nicolas",
+        "affiliation": "POCO",
+        "competitorId": "303275"
+      }
+    ]
+  },
+  {
+    "name": "4E",
+    "title": "4E - 400m  Youth Male (100m)",
+    "event": "4",
+    "heat": 5,
+    "group": "Youth Male",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 231,
+        "name": "Magnus KING",
+        "lastName": "KING",
+        "firstName": "Magnus",
+        "affiliation": "RICH",
+        "competitorId": "308882"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 239,
+        "name": "Sunny NIE",
+        "lastName": "NIE",
+        "firstName": "Sunny",
+        "affiliation": "POCO",
+        "competitorId": "300822"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 250,
+        "name": "Andrew KIM",
+        "lastName": "KIM",
+        "firstName": "Andrew",
+        "affiliation": "LAN",
+        "competitorId": "300448"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 230,
+        "name": "Sam SHI",
+        "lastName": "SHI",
+        "firstName": "Sam",
+        "affiliation": "POCO",
+        "competitorId": "307616"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 253,
+        "name": "Andy ZU",
+        "lastName": "ZU",
+        "firstName": "Andy",
+        "affiliation": "POCO",
+        "competitorId": "303991"
+      }
+    ]
+  },
+  {
+    "name": "4F",
+    "title": "4F - 400m  Youth Male (100m)",
+    "event": "4",
+    "heat": 6,
+    "group": "Youth Male",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 234,
+        "name": "Linus KING",
+        "lastName": "KING",
+        "firstName": "Linus",
+        "affiliation": "RICH",
+        "competitorId": "318559"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 243,
+        "name": "Victor HE",
+        "lastName": "HE",
+        "firstName": "Victor",
+        "affiliation": "POCO",
+        "competitorId": "314820"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 251,
+        "name": "Aidan LAPIERRE",
+        "lastName": "LAPIERRE",
+        "firstName": "Aidan",
+        "affiliation": "RICH",
+        "competitorId": "300943"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 258,
+        "name": "Austin SUN",
+        "lastName": "SUN",
+        "firstName": "Austin",
+        "affiliation": "POCO",
+        "competitorId": "318589"
+      }
+    ]
+  },
+  {
+    "name": "4G",
+    "title": "4G - 400m  Youth Male (100m)",
+    "event": "4",
+    "heat": 7,
+    "group": "Youth Male",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 237,
+        "name": "Lucas PARK",
+        "lastName": "PARK",
+        "firstName": "Lucas",
+        "affiliation": "LAN",
+        "competitorId": "300381"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 245,
+        "name": "Dylan FREWIN",
+        "lastName": "FREWIN",
+        "firstName": "Dylan",
+        "affiliation": "VAN",
+        "competitorId": "214332"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 252,
+        "name": "Caleb MCINTOSH",
+        "lastName": "MCINTOSH",
+        "firstName": "Caleb",
+        "affiliation": "PG",
+        "competitorId": "204446"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 259,
+        "name": "Justin SUN",
+        "lastName": "SUN",
+        "firstName": "Justin",
+        "affiliation": "POCO",
+        "competitorId": "318590"
+      }
+    ]
+  },
+  {
+    "name": "5A",
+    "title": "5A - 1500m  Neo Jr/Jr Female (111m)",
+    "event": "5",
+    "heat": 1,
+    "group": "Neo Jr/Jr Female",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 147,
+        "name": "Gabrielle OETOMO",
+        "lastName": "OETOMO",
+        "firstName": "Gabrielle",
+        "affiliation": "BURN",
+        "competitorId": "103775"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 155,
+        "name": "Mya ONOS",
+        "lastName": "ONOS",
+        "firstName": "Mya",
+        "affiliation": "RM",
+        "competitorId": "102636"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 153,
+        "name": "Keanna ROYCE",
+        "lastName": "ROYCE",
+        "firstName": "Keanna",
+        "affiliation": "POCO",
+        "competitorId": "316823"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 159,
+        "name": "Ema PEREZ",
+        "lastName": "PEREZ",
+        "firstName": "Ema",
+        "affiliation": "ESQ",
+        "competitorId": "306133"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 160,
+        "name": "Faith GORRY",
+        "lastName": "GORRY",
+        "firstName": "Faith",
+        "affiliation": "VAN",
+        "competitorId": "317386"
+      }
+    ]
+  },
+  {
+    "name": "5B",
+    "title": "5B - 1500m  Neo Jr/Jr Female (111m)",
+    "event": "5",
+    "heat": 2,
+    "group": "Neo Jr/Jr Female",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 149,
+        "name": "Nora WAGNER",
+        "lastName": "WAGNER",
+        "firstName": "Nora",
+        "affiliation": "BURN",
+        "competitorId": "102570"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 152,
+        "name": "Dain SONG",
+        "lastName": "SONG",
+        "firstName": "Dain",
+        "affiliation": "POCO",
+        "competitorId": "206170"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 154,
+        "name": "Alivia LAM",
+        "lastName": "LAM",
+        "firstName": "Alivia",
+        "affiliation": "RICH",
+        "competitorId": "207180"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 157,
+        "name": "Nora CALDER",
+        "lastName": "CALDER",
+        "firstName": "Nora",
+        "affiliation": "MISS",
+        "competitorId": "207161"
+      }
+    ]
+  },
+  {
+    "name": "5C",
+    "title": "5C - 1500m  Neo Jr/Jr Female (111m)",
+    "event": "5",
+    "heat": 3,
+    "group": "Neo Jr/Jr Female",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 151,
+        "name": "Meena LITT",
+        "lastName": "LITT",
+        "firstName": "Meena",
+        "affiliation": "KAM",
+        "competitorId": "103880"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 148,
+        "name": "Rachael BUTT",
+        "lastName": "BUTT",
+        "firstName": "Rachael",
+        "affiliation": "LAN",
+        "competitorId": "101167"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 150,
+        "name": "Sophia CAIRO MARTINEZ",
+        "lastName": "CAIRO MARTINEZ",
+        "firstName": "Sophia",
+        "affiliation": "BURN",
+        "competitorId": "303404"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 158,
+        "name": "Laylah SADEGUR",
+        "lastName": "SADEGUR",
+        "firstName": "Laylah",
+        "affiliation": "KAM",
+        "competitorId": "101489"
+      }
+    ]
+  },
+  {
+    "name": "6A",
+    "title": "6A - 1500m  Neo Jr/Jr Male (111m)",
+    "event": "6",
+    "heat": 1,
+    "group": "Neo Jr/Jr Male",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 262,
+        "name": "Heath KENNETT",
+        "lastName": "KENNETT",
+        "firstName": "Heath",
+        "affiliation": "BURN",
+        "competitorId": "102573"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 269,
+        "name": "Jashjit CHAUHAN",
+        "lastName": "CHAUHAN",
+        "firstName": "Jashjit",
+        "affiliation": "MAT",
+        "competitorId": "303300"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 268,
+        "name": "Connor MASON BENNETT",
+        "lastName": "MASON BENNETT",
+        "firstName": "Connor",
+        "affiliation": "FSJ",
+        "competitorId": "300284"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 279,
+        "name": "Callum STUART",
+        "lastName": "STUART",
+        "firstName": "Callum",
+        "affiliation": "KEL",
+        "competitorId": "305777"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 281,
+        "name": "Yannick WIGHT",
+        "lastName": "WIGHT",
+        "firstName": "Yannick",
+        "affiliation": "LAN",
+        "competitorId": "120256"
+      }
+    ]
+  },
+  {
+    "name": "6B",
+    "title": "6B - 1500m  Neo Jr/Jr Male (111m)",
+    "event": "6",
+    "heat": 2,
+    "group": "Neo Jr/Jr Male",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 265,
+        "name": "Louie TOTH",
+        "lastName": "TOTH",
+        "firstName": "Louie",
+        "affiliation": "POCO",
+        "competitorId": "300813"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 272,
+        "name": "Jacob BEESLEY",
+        "lastName": "BEESLEY",
+        "firstName": "Jacob",
+        "affiliation": "KAM",
+        "competitorId": "117974"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 276,
+        "name": "Jared ROBERTS",
+        "lastName": "ROBERTS",
+        "firstName": "Jared",
+        "affiliation": "KAM",
+        "competitorId": "101487"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 280,
+        "name": "Aaditya RAJESH",
+        "lastName": "RAJESH",
+        "firstName": "Aaditya",
+        "affiliation": "LAN",
+        "competitorId": "210265"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 284,
+        "name": "Carter RAE",
+        "lastName": "RAE",
+        "firstName": "Carter",
+        "affiliation": "SARD",
+        "competitorId": "300320"
+      }
+    ]
+  },
+  {
+    "name": "6C",
+    "title": "6C - 1500m  Neo Jr/Jr Male (111m)",
+    "event": "6",
+    "heat": 3,
+    "group": "Neo Jr/Jr Male",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 261,
+        "name": "Hugo Junior YANG",
+        "lastName": "YANG",
+        "firstName": "Hugo Junior",
+        "affiliation": "BURN",
+        "competitorId": "324386"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 270,
+        "name": "Tilman ASTOR",
+        "lastName": "ASTOR",
+        "firstName": "Tilman",
+        "affiliation": "RICH",
+        "competitorId": "300232"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 271,
+        "name": "Arthur YI",
+        "lastName": "YI",
+        "firstName": "Arthur",
+        "affiliation": "POCO",
+        "competitorId": "303274"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 278,
+        "name": "Derin MCKINNON-BUBEROGLU",
+        "lastName": "MCKINNON-BUBEROGLU",
+        "firstName": "Derin",
+        "affiliation": "ESQ",
+        "competitorId": "105976"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 285,
+        "name": "Sidney CAMPBELL",
+        "lastName": "CAMPBELL",
+        "firstName": "Sidney",
+        "affiliation": "BURN",
+        "competitorId": "303332"
+      }
+    ]
+  },
+  {
+    "name": "6D",
+    "title": "6D - 1500m  Neo Jr/Jr Male (111m)",
+    "event": "6",
+    "heat": 4,
+    "group": "Neo Jr/Jr Male",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 263,
+        "name": "Kai BARNETT",
+        "lastName": "BARNETT",
+        "firstName": "Kai",
+        "affiliation": "VAN",
+        "competitorId": "106207"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 266,
+        "name": "Finley LUDEMAN",
+        "lastName": "LUDEMAN",
+        "firstName": "Finley",
+        "affiliation": "RM",
+        "competitorId": "104306"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 273,
+        "name": "Adam GYORI",
+        "lastName": "GYORI",
+        "firstName": "Adam",
+        "affiliation": "BURN",
+        "competitorId": "310599"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 282,
+        "name": "Samuel O'BRIEN",
+        "lastName": "O'BRIEN",
+        "firstName": "Samuel",
+        "affiliation": "BURN",
+        "competitorId": "320043"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 283,
+        "name": "Kayden FORD-JALBERT",
+        "lastName": "FORD-JALBERT",
+        "firstName": "Kayden",
+        "affiliation": "WL",
+        "competitorId": "111956"
+      }
+    ]
+  },
+  {
+    "name": "6E",
+    "title": "6E - 1500m  Neo Jr/Jr Male (111m)",
+    "event": "6",
+    "heat": 5,
+    "group": "Neo Jr/Jr Male",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 264,
+        "name": "Andy LIU",
+        "lastName": "LIU",
+        "firstName": "Andy",
+        "affiliation": "RICH",
+        "competitorId": "300255"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 267,
+        "name": "Matthew KAM",
+        "lastName": "KAM",
+        "firstName": "Matthew",
+        "affiliation": "RICH",
+        "competitorId": "311493"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 275,
+        "name": "Xander HAAHEIM",
+        "lastName": "HAAHEIM",
+        "firstName": "Xander",
+        "affiliation": "KEL",
+        "competitorId": "105403"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 277,
+        "name": "Cyrus HO",
+        "lastName": "HO",
+        "firstName": "Cyrus",
+        "affiliation": "RICH",
+        "competitorId": "213237"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 286,
+        "name": "Preston SIGSWORTH",
+        "lastName": "SIGSWORTH",
+        "firstName": "Preston",
+        "affiliation": "WL",
+        "competitorId": "105663"
+      }
+    ]
+  },
+  {
+    "name": "7A",
+    "title": "7A - 1500m  Senior/Master (111m)",
+    "event": "7",
+    "heat": 1,
+    "group": "Senior/Master",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 288,
+        "name": "Zack THIBEAULT",
+        "lastName": "THIBEAULT",
+        "firstName": "Zack",
+        "affiliation": "LAN",
+        "competitorId": "118127"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 290,
+        "name": "Kim KLAPSTEIN",
+        "lastName": "KLAPSTEIN",
+        "firstName": "Kim",
+        "affiliation": "SARM",
+        "competitorId": "104970"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 289,
+        "name": "Timothy MACDONALD",
+        "lastName": "MACDONALD",
+        "firstName": "Timothy",
+        "affiliation": "PEN",
+        "competitorId": "307676"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 167,
+        "name": "Jan ZURCHER",
+        "lastName": "ZURCHER",
+        "firstName": "Jan",
+        "affiliation": "PEN",
+        "competitorId": "320131"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 168,
+        "name": "Karen DOOLAN",
+        "lastName": "DOOLAN",
+        "firstName": "Karen",
+        "affiliation": "BURN",
+        "competitorId": "113311"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 169,
+        "name": "Joanne JAHNS",
+        "lastName": "JAHNS",
+        "firstName": "Joanne",
+        "affiliation": "BURN",
+        "competitorId": "204242"
+      }
+    ]
+  },
+  {
+    "name": "7B",
+    "title": "7B - 1500m  Senior/Master (111m)",
+    "event": "7",
+    "heat": 2,
+    "group": "Senior/Master",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 287,
+        "name": "Jesse THIBEAULT",
+        "lastName": "THIBEAULT",
+        "firstName": "Jesse",
+        "affiliation": "LAN",
+        "competitorId": "118126"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 161,
+        "name": "Kim REID",
+        "lastName": "REID",
+        "firstName": "Kim",
+        "affiliation": "BURN",
+        "competitorId": "102721"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 164,
+        "name": "Soobin YIM",
+        "lastName": "YIM",
+        "firstName": "Soobin",
+        "affiliation": "BURN",
+        "competitorId": "311043"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 166,
+        "name": "Niamh MULLEN",
+        "lastName": "MULLEN",
+        "firstName": "Niamh",
+        "affiliation": "LAN",
+        "competitorId": "322964"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 294,
+        "name": "Andy WONG",
+        "lastName": "WONG",
+        "firstName": "Andy",
+        "affiliation": "BURN",
+        "competitorId": "104215"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 170,
+        "name": "Sophie BERIAULT",
+        "lastName": "BERIAULT",
+        "firstName": "Sophie",
+        "affiliation": "BURN",
+        "competitorId": "102557"
+      }
+    ]
+  },
+  {
+    "name": "7C",
+    "title": "7C - 1500m  Senior/Master (111m)",
+    "event": "7",
+    "heat": 3,
+    "group": "Senior/Master",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 291,
+        "name": "Malcolm KENNETT",
+        "lastName": "KENNETT",
+        "firstName": "Malcolm",
+        "affiliation": "BURN",
+        "competitorId": "102574"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 162,
+        "name": "Diane SILZER",
+        "lastName": "SILZER",
+        "firstName": "Diane",
+        "affiliation": "BURN",
+        "competitorId": "104214"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 165,
+        "name": "Katya ZADOROZHNAYA",
+        "lastName": "ZADOROZHNAYA",
+        "firstName": "Katya",
+        "affiliation": "RICH",
+        "competitorId": "308712"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 163,
+        "name": "Shione FRANCIS",
+        "lastName": "FRANCIS",
+        "firstName": "Shione",
+        "affiliation": "RICH",
+        "competitorId": "312668"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 293,
+        "name": "Hu BRIETKOPF",
+        "lastName": "BRIETKOPF",
+        "firstName": "Hu",
+        "affiliation": "BURN",
+        "competitorId": "320580"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 295,
+        "name": "Adam ZHAO",
+        "lastName": "ZHAO",
+        "firstName": "Adam",
+        "affiliation": "BURN",
+        "competitorId": "303120"
+      }
+    ]
+  },
+  {
+    "name": "8A",
+    "title": "8A - 400m  Club Skaters Div 1 (100m)",
+    "event": "8",
+    "heat": 1,
+    "group": "Club Skaters Div 1",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 101,
+        "name": "Seoeun KU",
+        "lastName": "KU",
+        "firstName": "Seoeun",
+        "affiliation": "POCO",
+        "competitorId": "303313"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 201,
+        "name": "Anbo WANG",
+        "lastName": "WANG",
+        "firstName": "Anbo",
+        "affiliation": "VAN",
+        "competitorId": "308873"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 202,
+        "name": "Skyler Jino CHU",
+        "lastName": "CHU",
+        "firstName": "Skyler Jino",
+        "affiliation": "RICH",
+        "competitorId": "307141"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 203,
+        "name": "Jayden LI",
+        "lastName": "LI",
+        "firstName": "Jayden",
+        "affiliation": "RICH",
+        "competitorId": "302965"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 205,
+        "name": "Zhiji DONG",
+        "lastName": "DONG",
+        "firstName": "Zhiji",
+        "affiliation": "LAN",
+        "competitorId": "302589"
+      }
+    ]
+  },
+  {
+    "name": "8B",
+    "title": "8B - 400m  Club Skaters Div 1 (100m)",
+    "event": "8",
+    "heat": 2,
+    "group": "Club Skaters Div 1",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 206,
+        "name": "Luke LI",
+        "lastName": "LI",
+        "firstName": "Luke",
+        "affiliation": "POCO",
+        "competitorId": "310624"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 204,
+        "name": "Max HAAHEIM",
+        "lastName": "HAAHEIM",
+        "firstName": "Max",
+        "affiliation": "KEL",
+        "competitorId": "203879"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 207,
+        "name": "Arlo EASON",
+        "lastName": "EASON",
+        "firstName": "Arlo",
+        "affiliation": "KEL",
+        "competitorId": "208670"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 208,
+        "name": "Jeremy LI",
+        "lastName": "LI",
+        "firstName": "Jeremy",
+        "affiliation": "RICH",
+        "competitorId": "300235"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 102,
+        "name": "Kailey WONG",
+        "lastName": "WONG",
+        "firstName": "Kailey",
+        "affiliation": "RICH",
+        "competitorId": "312627"
+      }
+    ]
+  },
+  {
+    "name": "8C",
+    "title": "8C - 400m  Club Skaters Div 1 (100m)",
+    "event": "8",
+    "heat": 3,
+    "group": "Club Skaters Div 1",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 210,
+        "name": "Oscar LIU",
+        "lastName": "LIU",
+        "firstName": "Oscar",
+        "affiliation": "POCO",
+        "competitorId": "314832"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 209,
+        "name": "Soren CASTELLAN",
+        "lastName": "CASTELLAN",
+        "firstName": "Soren",
+        "affiliation": "ESQ",
+        "competitorId": "307422"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 103,
+        "name": "Adalynn LIU",
+        "lastName": "LIU",
+        "firstName": "Adalynn",
+        "affiliation": "POCO",
+        "competitorId": "308159"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 211,
+        "name": "Isaac MEISL",
+        "lastName": "MEISL",
+        "firstName": "Isaac",
+        "affiliation": "PEN",
+        "competitorId": "309605"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 106,
+        "name": "Patience MATHEWSON",
+        "lastName": "MATHEWSON",
+        "firstName": "Patience",
+        "affiliation": "PEN",
+        "competitorId": "300705"
+      }
+    ]
+  },
+  {
+    "name": "8D",
+    "title": "8D - 400m  Club Skaters Div 1 (100m)",
+    "event": "8",
+    "heat": 4,
+    "group": "Club Skaters Div 1",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 104,
+        "name": "Gianna WONG",
+        "lastName": "WONG",
+        "firstName": "Gianna",
+        "affiliation": "RICH",
+        "competitorId": "312628"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 213,
+        "name": "Felix DENNILL",
+        "lastName": "DENNILL",
+        "firstName": "Felix",
+        "affiliation": "SARD",
+        "competitorId": "314926"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 212,
+        "name": "HARRISON WIEBE",
+        "lastName": "WIEBE",
+        "firstName": "HARRISON",
+        "affiliation": "KEL",
+        "competitorId": "300388"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 105,
+        "name": "Ellie LEUNG",
+        "lastName": "LEUNG",
+        "firstName": "Ellie",
+        "affiliation": "RICH",
+        "competitorId": "323296"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 214,
+        "name": "Aiden KIM",
+        "lastName": "KIM",
+        "firstName": "Aiden",
+        "affiliation": "BURN",
+        "competitorId": "319047"
+      }
+    ]
+  },
+  {
+    "name": "9A",
+    "title": "9A - 400m  Club Skaters Div 2 (100m)",
+    "event": "9",
+    "heat": 1,
+    "group": "Club Skaters Div 2",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 107,
+        "name": "Mariana FIQUITIVA DURAN",
+        "lastName": "FIQUITIVA DURAN",
+        "firstName": "Mariana",
+        "affiliation": "RM",
+        "competitorId": "318100"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 108,
+        "name": "Maya ANTOINE",
+        "lastName": "ANTOINE",
+        "firstName": "Maya",
+        "affiliation": "KAM",
+        "competitorId": "207056"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 109,
+        "name": "Seri LEE",
+        "lastName": "LEE",
+        "firstName": "Seri",
+        "affiliation": "RICH",
+        "competitorId": "309442"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 112,
+        "name": "Mykenzie ACTON",
+        "lastName": "ACTON",
+        "firstName": "Mykenzie",
+        "affiliation": "KEL",
+        "competitorId": "201383"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 220,
+        "name": "Waylan MATTE",
+        "lastName": "MATTE",
+        "firstName": "Waylan",
+        "affiliation": "PG",
+        "competitorId": "319604"
+      }
+    ]
+  },
+  {
+    "name": "9B",
+    "title": "9B - 400m  Club Skaters Div 2 (100m)",
+    "event": "9",
+    "heat": 2,
+    "group": "Club Skaters Div 2",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 110,
+        "name": "Leyla UNLU",
+        "lastName": "UNLU",
+        "firstName": "Leyla",
+        "affiliation": "PEN",
+        "competitorId": "307309"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 218,
+        "name": "Lorcan DUFFY",
+        "lastName": "DUFFY",
+        "firstName": "Lorcan",
+        "affiliation": "BURN",
+        "competitorId": "305555"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 115,
+        "name": "Avery WALSH",
+        "lastName": "WALSH",
+        "firstName": "Avery",
+        "affiliation": "PG",
+        "competitorId": "307538"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 113,
+        "name": "Kinsey HANK",
+        "lastName": "HANK",
+        "firstName": "Kinsey",
+        "affiliation": "KEL",
+        "competitorId": "208851"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 111,
+        "name": "Miyako FREWIN",
+        "lastName": "FREWIN",
+        "firstName": "Miyako",
+        "affiliation": "VAN",
+        "competitorId": "302733"
+      }
+    ]
+  },
+  {
+    "name": "9C",
+    "title": "9C - 400m  Club Skaters Div 2 (100m)",
+    "event": "9",
+    "heat": 3,
+    "group": "Club Skaters Div 2",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 217,
+        "name": "Timothy SONG",
+        "lastName": "SONG",
+        "firstName": "Timothy",
+        "affiliation": "POCO",
+        "competitorId": "301016"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 219,
+        "name": "Kynton POON",
+        "lastName": "POON",
+        "firstName": "Kynton",
+        "affiliation": "RICH",
+        "competitorId": "323364"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 223,
+        "name": "Vincent SIKORA",
+        "lastName": "SIKORA",
+        "firstName": "Vincent",
+        "affiliation": "KAM",
+        "competitorId": "313589"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 114,
+        "name": "Anna MCINTOSH",
+        "lastName": "MCINTOSH",
+        "firstName": "Anna",
+        "affiliation": "PG",
+        "competitorId": "300371"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 225,
+        "name": "Jyun LI",
+        "lastName": "LI",
+        "firstName": "Jyun",
+        "affiliation": "BURN",
+        "competitorId": "321756"
+      }
+    ]
+  },
+  {
+    "name": "9D",
+    "title": "9D - 400m  Club Skaters Div 2 (100m)",
+    "event": "9",
+    "heat": 4,
+    "group": "Club Skaters Div 2",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 221,
+        "name": "Leo ZENG",
+        "lastName": "ZENG",
+        "firstName": "Leo",
+        "affiliation": "POCO",
+        "competitorId": "318259"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 216,
+        "name": "Ethan REN",
+        "lastName": "REN",
+        "firstName": "Ethan",
+        "affiliation": "LAN",
+        "competitorId": "323427"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 222,
+        "name": "Allen LI",
+        "lastName": "LI",
+        "firstName": "Allen",
+        "affiliation": "RICH",
+        "competitorId": "319613"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 224,
+        "name": "Elias SONG",
+        "lastName": "SONG",
+        "firstName": "Elias",
+        "affiliation": "KEL",
+        "competitorId": "307521"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 215,
+        "name": "Logan KELLY-JALBERT",
+        "lastName": "KELLY-JALBERT",
+        "firstName": "Logan",
+        "affiliation": "WL",
+        "competitorId": "207060"
+      }
+    ]
+  },
+  {
+    "name": "10A",
+    "title": "10A - 400m  Youth Female (100m)",
+    "event": "10",
+    "heat": 1,
+    "group": "Youth Female",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 116,
+        "name": "Gloria HAN",
+        "lastName": "HAN",
+        "firstName": "Gloria",
+        "affiliation": "POCO",
+        "competitorId": "300836"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 121,
+        "name": "Paulina DAVYDOVA",
+        "lastName": "DAVYDOVA",
+        "firstName": "Paulina",
+        "affiliation": "PEN",
+        "competitorId": "103916"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 123,
+        "name": "Monet LEGAULT-GIRAUD",
+        "lastName": "LEGAULT-GIRAUD",
+        "firstName": "Monet",
+        "affiliation": "VAN",
+        "competitorId": "104404"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 131,
+        "name": "Tatum BAILEY",
+        "lastName": "BAILEY",
+        "firstName": "Tatum",
+        "affiliation": "PEN",
+        "competitorId": "300760"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 129,
+        "name": "Linna ZEIBIN",
+        "lastName": "ZEIBIN",
+        "firstName": "Linna",
+        "affiliation": "VAN",
+        "competitorId": "306228"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 134,
+        "name": "Chloe LEE",
+        "lastName": "LEE",
+        "firstName": "Chloe",
+        "affiliation": "BURN",
+        "competitorId": "214035"
+      }
+    ]
+  },
+  {
+    "name": "10B",
+    "title": "10B - 400m  Youth Female (100m)",
+    "event": "10",
+    "heat": 2,
+    "group": "Youth Female",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 117,
+        "name": "Alessa LAUT",
+        "lastName": "LAUT",
+        "firstName": "Alessa",
+        "affiliation": "MISS",
+        "competitorId": "300840"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 119,
+        "name": "Kayleigh ROBERTS",
+        "lastName": "ROBERTS",
+        "firstName": "Kayleigh",
+        "affiliation": "KAM",
+        "competitorId": "101488"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 124,
+        "name": "Alexandra MUELLER",
+        "lastName": "MUELLER",
+        "firstName": "Alexandra",
+        "affiliation": "SARD",
+        "competitorId": "303655"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 128,
+        "name": "Reya ZHAO",
+        "lastName": "ZHAO",
+        "firstName": "Reya",
+        "affiliation": "BURN",
+        "competitorId": "303118"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 127,
+        "name": "Laon KIM",
+        "lastName": "KIM",
+        "firstName": "Laon",
+        "affiliation": "BURN",
+        "competitorId": "316859"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 137,
+        "name": "Audrey CHUAH",
+        "lastName": "CHUAH",
+        "firstName": "Audrey",
+        "affiliation": "RICH",
+        "competitorId": "323306"
+      }
+    ]
+  },
+  {
+    "name": "10C",
+    "title": "10C - 400m  Youth Female (100m)",
+    "event": "10",
+    "heat": 3,
+    "group": "Youth Female",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 118,
+        "name": "Yaxuan GUO",
+        "lastName": "GUO",
+        "firstName": "Yaxuan",
+        "affiliation": "RICH",
+        "competitorId": "312890"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 120,
+        "name": "Alexa LIM",
+        "lastName": "LIM",
+        "firstName": "Alexa",
+        "affiliation": "LAN",
+        "competitorId": "300842"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 126,
+        "name": "April BAIN",
+        "lastName": "BAIN",
+        "firstName": "April",
+        "affiliation": "BURN",
+        "competitorId": "312354"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 122,
+        "name": "Addison HANK",
+        "lastName": "HANK",
+        "firstName": "Addison",
+        "affiliation": "KEL",
+        "competitorId": "120813"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 133,
+        "name": "Sylvia LANG",
+        "lastName": "LANG",
+        "firstName": "Sylvia",
+        "affiliation": "POCO",
+        "competitorId": "307604"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 130,
+        "name": "Carly BASTIEN",
+        "lastName": "BASTIEN",
+        "firstName": "Carly",
+        "affiliation": "RICH",
+        "competitorId": "313294"
+      }
+    ]
+  },
+  {
+    "name": "10D",
+    "title": "10D - 400m  Youth Female (100m)",
+    "event": "10",
+    "heat": 4,
+    "group": "Youth Female",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 138,
+        "name": "Kamea HUDYMA",
+        "lastName": "HUDYMA",
+        "firstName": "Kamea",
+        "affiliation": "PG",
+        "competitorId": "110617"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 139,
+        "name": "Hannah OSUGI-FRIEDEL",
+        "lastName": "OSUGI-FRIEDEL",
+        "firstName": "Hannah",
+        "affiliation": "VAN",
+        "competitorId": "300367"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 136,
+        "name": "Hallie SADEGUR",
+        "lastName": "SADEGUR",
+        "firstName": "Hallie",
+        "affiliation": "KAM",
+        "competitorId": "104958"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 144,
+        "name": "Chloe MIAO",
+        "lastName": "MIAO",
+        "firstName": "Chloe",
+        "affiliation": "POCO",
+        "competitorId": "302531"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 143,
+        "name": "Quinn KISS",
+        "lastName": "KISS",
+        "firstName": "Quinn",
+        "affiliation": "PEN",
+        "competitorId": "325758"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 142,
+        "name": "Skye NAPIER",
+        "lastName": "NAPIER",
+        "firstName": "Skye",
+        "affiliation": "POCO",
+        "competitorId": "305395"
+      }
+    ]
+  },
+  {
+    "name": "10E",
+    "title": "10E - 400m  Youth Female (100m)",
+    "event": "10",
+    "heat": 5,
+    "group": "Youth Female",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 132,
+        "name": "Emily WALSH",
+        "lastName": "WALSH",
+        "firstName": "Emily",
+        "affiliation": "PG",
+        "competitorId": "303633"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 135,
+        "name": "Beah BRAUN",
+        "lastName": "BRAUN",
+        "firstName": "Beah",
+        "affiliation": "BURN",
+        "competitorId": "302910"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 140,
+        "name": "Ninoc CASTELLAN",
+        "lastName": "CASTELLAN",
+        "firstName": "Ninoc",
+        "affiliation": "ESQ",
+        "competitorId": "304697"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 141,
+        "name": "Grace MADSEN",
+        "lastName": "MADSEN",
+        "firstName": "Grace",
+        "affiliation": "ESQ",
+        "competitorId": "300873"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 145,
+        "name": "Derya MCKINNON-BUBEROGLU",
+        "lastName": "MCKINNON-BUBEROGLU",
+        "firstName": "Derya",
+        "affiliation": "ESQ",
+        "competitorId": "122681"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 146,
+        "name": "Hunter LIU",
+        "lastName": "LIU",
+        "firstName": "Hunter",
+        "affiliation": "VAN",
+        "competitorId": "314238"
+      }
+    ]
+  },
+  {
+    "name": "11A",
+    "title": "11A - 400m  Youth Male (100m)",
+    "event": "11",
+    "heat": 1,
+    "group": "Youth Male",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 226,
+        "name": "Zion CHOI",
+        "lastName": "CHOI",
+        "firstName": "Zion",
+        "affiliation": "POCO",
+        "competitorId": "213566"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 243,
+        "name": "Victor HE",
+        "lastName": "HE",
+        "firstName": "Victor",
+        "affiliation": "POCO",
+        "competitorId": "314820"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 237,
+        "name": "Lucas PARK",
+        "lastName": "PARK",
+        "firstName": "Lucas",
+        "affiliation": "LAN",
+        "competitorId": "300381"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 235,
+        "name": "Nathan XU",
+        "lastName": "XU",
+        "firstName": "Nathan",
+        "affiliation": "POCO",
+        "competitorId": "302340"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 234,
+        "name": "Linus KING",
+        "lastName": "KING",
+        "firstName": "Linus",
+        "affiliation": "RICH",
+        "competitorId": "318559"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 239,
+        "name": "Sunny NIE",
+        "lastName": "NIE",
+        "firstName": "Sunny",
+        "affiliation": "POCO",
+        "competitorId": "300822"
+      }
+    ]
+  },
+  {
+    "name": "11B",
+    "title": "11B - 400m  Youth Male (100m)",
+    "event": "11",
+    "heat": 2,
+    "group": "Youth Male",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 244,
+        "name": "Nicolas YI",
+        "lastName": "YI",
+        "firstName": "Nicolas",
+        "affiliation": "POCO",
+        "competitorId": "303275"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 229,
+        "name": "Ethan LEUNG",
+        "lastName": "LEUNG",
+        "firstName": "Ethan",
+        "affiliation": "RICH",
+        "competitorId": "300942"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 228,
+        "name": "Surya RAJESH",
+        "lastName": "RAJESH",
+        "firstName": "Surya",
+        "affiliation": "LAN",
+        "competitorId": "210266"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 236,
+        "name": "Aaron TANG",
+        "lastName": "TANG",
+        "firstName": "Aaron",
+        "affiliation": "POCO",
+        "competitorId": "307770"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 247,
+        "name": "Justin LEE",
+        "lastName": "LEE",
+        "firstName": "Justin",
+        "affiliation": "BURN",
+        "competitorId": "214034"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 245,
+        "name": "Dylan FREWIN",
+        "lastName": "FREWIN",
+        "firstName": "Dylan",
+        "affiliation": "VAN",
+        "competitorId": "214332"
+      }
+    ]
+  },
+  {
+    "name": "11C",
+    "title": "11C - 400m  Youth Male (100m)",
+    "event": "11",
+    "heat": 3,
+    "group": "Youth Male",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 230,
+        "name": "Sam SHI",
+        "lastName": "SHI",
+        "firstName": "Sam",
+        "affiliation": "POCO",
+        "competitorId": "307616"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 227,
+        "name": "Zion PARK",
+        "lastName": "PARK",
+        "firstName": "Zion",
+        "affiliation": "POCO",
+        "competitorId": "300885"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 231,
+        "name": "Magnus KING",
+        "lastName": "KING",
+        "firstName": "Magnus",
+        "affiliation": "RICH",
+        "competitorId": "308882"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 232,
+        "name": "Adam YANG",
+        "lastName": "YANG",
+        "firstName": "Adam",
+        "affiliation": "BURN",
+        "competitorId": "303253"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 241,
+        "name": "Ashton LOLAND",
+        "lastName": "LOLAND",
+        "firstName": "Ashton",
+        "affiliation": "KAM",
+        "competitorId": "203769"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 238,
+        "name": "Ross MATHEWSON",
+        "lastName": "MATHEWSON",
+        "firstName": "Ross",
+        "affiliation": "PEN",
+        "competitorId": "121453"
+      }
+    ]
+  },
+  {
+    "name": "11D",
+    "title": "11D - 400m  Youth Male (100m)",
+    "event": "11",
+    "heat": 4,
+    "group": "Youth Male",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 242,
+        "name": "Lucas KOPP",
+        "lastName": "KOPP",
+        "firstName": "Lucas",
+        "affiliation": "KAM",
+        "competitorId": "203763"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 246,
+        "name": "Andy MAI",
+        "lastName": "MAI",
+        "firstName": "Andy",
+        "affiliation": "POCO",
+        "competitorId": "309368"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 250,
+        "name": "Andrew KIM",
+        "lastName": "KIM",
+        "firstName": "Andrew",
+        "affiliation": "LAN",
+        "competitorId": "300448"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 256,
+        "name": "Lucas CHEN",
+        "lastName": "CHEN",
+        "firstName": "Lucas",
+        "affiliation": "POCO",
+        "competitorId": "318579"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 253,
+        "name": "Andy ZU",
+        "lastName": "ZU",
+        "firstName": "Andy",
+        "affiliation": "POCO",
+        "competitorId": "303991"
+      }
+    ]
+  },
+  {
+    "name": "11E",
+    "title": "11E - 400m  Youth Male (100m)",
+    "event": "11",
+    "heat": 5,
+    "group": "Youth Male",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 248,
+        "name": "Phillip COCKING",
+        "lastName": "COCKING",
+        "firstName": "Phillip",
+        "affiliation": "POCO",
+        "competitorId": "310644"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 251,
+        "name": "Aidan LAPIERRE",
+        "lastName": "LAPIERRE",
+        "firstName": "Aidan",
+        "affiliation": "RICH",
+        "competitorId": "300943"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 254,
+        "name": "Vincent LIAO",
+        "lastName": "LIAO",
+        "firstName": "Vincent",
+        "affiliation": "RICH",
+        "competitorId": "309085"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 249,
+        "name": "Anhao QIAO",
+        "lastName": "QIAO",
+        "firstName": "Anhao",
+        "affiliation": "VAN",
+        "competitorId": "121325"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 257,
+        "name": "Andrew KONG",
+        "lastName": "KONG",
+        "firstName": "Andrew",
+        "affiliation": "VAN",
+        "competitorId": "314610"
+      }
+    ]
+  },
+  {
+    "name": "11F",
+    "title": "11F - 400m  Youth Male (100m)",
+    "event": "11",
+    "heat": 6,
+    "group": "Youth Male",
+    "length": 400,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 240,
+        "name": "Juhan KANG",
+        "lastName": "KANG",
+        "firstName": "Juhan",
+        "affiliation": "POCO",
+        "competitorId": "302280"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 252,
+        "name": "Caleb MCINTOSH",
+        "lastName": "MCINTOSH",
+        "firstName": "Caleb",
+        "affiliation": "PG",
+        "competitorId": "204446"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 258,
+        "name": "Austin SUN",
+        "lastName": "SUN",
+        "firstName": "Austin",
+        "affiliation": "POCO",
+        "competitorId": "318589"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 259,
+        "name": "Justin SUN",
+        "lastName": "SUN",
+        "firstName": "Justin",
+        "affiliation": "POCO",
+        "competitorId": "318590"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 255,
+        "name": "Kingston CALDER",
+        "lastName": "CALDER",
+        "firstName": "Kingston",
+        "affiliation": "MISS",
+        "competitorId": "307792"
+      }
+    ]
+  },
+  {
+    "name": "13A",
+    "title": "13A - 1500m  Neo Jr/Jr Male (111m)",
+    "event": "13",
+    "heat": 1,
+    "group": "Neo Jr/Jr Male",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 265,
+        "name": "Louie TOTH",
+        "lastName": "TOTH",
+        "firstName": "Louie",
+        "affiliation": "POCO",
+        "competitorId": "300813"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 271,
+        "name": "Arthur YI",
+        "lastName": "YI",
+        "firstName": "Arthur",
+        "affiliation": "POCO",
+        "competitorId": "303274"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 272,
+        "name": "Jacob BEESLEY",
+        "lastName": "BEESLEY",
+        "firstName": "Jacob",
+        "affiliation": "KAM",
+        "competitorId": "117974"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 270,
+        "name": "Tilman ASTOR",
+        "lastName": "ASTOR",
+        "firstName": "Tilman",
+        "affiliation": "RICH",
+        "competitorId": "300232"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 262,
+        "name": "Heath KENNETT",
+        "lastName": "KENNETT",
+        "firstName": "Heath",
+        "affiliation": "BURN",
+        "competitorId": "102573"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 264,
+        "name": "Andy LIU",
+        "lastName": "LIU",
+        "firstName": "Andy",
+        "affiliation": "RICH",
+        "competitorId": "300255"
+      },
+      {
+        "startPosition": 7,
+        "helmetId": 263,
+        "name": "Kai BARNETT",
+        "lastName": "BARNETT",
+        "firstName": "Kai",
+        "affiliation": "VAN",
+        "competitorId": "106207"
+      }
+    ]
+  },
+  {
+    "name": "13B",
+    "title": "13B - 1500m  Neo Jr/Jr Male (111m)",
+    "event": "13",
+    "heat": 2,
+    "group": "Neo Jr/Jr Male",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 269,
+        "name": "Jashjit CHAUHAN",
+        "lastName": "CHAUHAN",
+        "firstName": "Jashjit",
+        "affiliation": "MAT",
+        "competitorId": "303300"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 276,
+        "name": "Jared ROBERTS",
+        "lastName": "ROBERTS",
+        "firstName": "Jared",
+        "affiliation": "KAM",
+        "competitorId": "101487"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 268,
+        "name": "Connor MASON BENNETT",
+        "lastName": "MASON BENNETT",
+        "firstName": "Connor",
+        "affiliation": "FSJ",
+        "competitorId": "300284"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 267,
+        "name": "Matthew KAM",
+        "lastName": "KAM",
+        "firstName": "Matthew",
+        "affiliation": "RICH",
+        "competitorId": "311493"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 275,
+        "name": "Xander HAAHEIM",
+        "lastName": "HAAHEIM",
+        "firstName": "Xander",
+        "affiliation": "KEL",
+        "competitorId": "105403"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 278,
+        "name": "Derin MCKINNON-BUBEROGLU",
+        "lastName": "MCKINNON-BUBEROGLU",
+        "firstName": "Derin",
+        "affiliation": "ESQ",
+        "competitorId": "105976"
+      },
+      {
+        "startPosition": 7,
+        "helmetId": 273,
+        "name": "Adam GYORI",
+        "lastName": "GYORI",
+        "firstName": "Adam",
+        "affiliation": "BURN",
+        "competitorId": "310599"
+      }
+    ]
+  },
+  {
+    "name": "13C",
+    "title": "13C - 1500m  Neo Jr/Jr Male (111m)",
+    "event": "13",
+    "heat": 3,
+    "group": "Neo Jr/Jr Male",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 277,
+        "name": "Cyrus HO",
+        "lastName": "HO",
+        "firstName": "Cyrus",
+        "affiliation": "RICH",
+        "competitorId": "213237"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 279,
+        "name": "Callum STUART",
+        "lastName": "STUART",
+        "firstName": "Callum",
+        "affiliation": "KEL",
+        "competitorId": "305777"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 266,
+        "name": "Finley LUDEMAN",
+        "lastName": "LUDEMAN",
+        "firstName": "Finley",
+        "affiliation": "RM",
+        "competitorId": "104306"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 284,
+        "name": "Carter RAE",
+        "lastName": "RAE",
+        "firstName": "Carter",
+        "affiliation": "SARD",
+        "competitorId": "300320"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 281,
+        "name": "Yannick WIGHT",
+        "lastName": "WIGHT",
+        "firstName": "Yannick",
+        "affiliation": "LAN",
+        "competitorId": "120256"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 282,
+        "name": "Samuel O'BRIEN",
+        "lastName": "O'BRIEN",
+        "firstName": "Samuel",
+        "affiliation": "BURN",
+        "competitorId": "320043"
+      },
+      {
+        "startPosition": 7,
+        "helmetId": 285,
+        "name": "Sidney CAMPBELL",
+        "lastName": "CAMPBELL",
+        "firstName": "Sidney",
+        "affiliation": "BURN",
+        "competitorId": "303332"
+      }
+    ]
+  },
+  {
+    "name": "13D",
+    "title": "13D - 1500m  Neo Jr/Jr Male (111m)",
+    "event": "13",
+    "heat": 4,
+    "group": "Neo Jr/Jr Male",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 280,
+        "name": "Aaditya RAJESH",
+        "lastName": "RAJESH",
+        "firstName": "Aaditya",
+        "affiliation": "LAN",
+        "competitorId": "210265"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 283,
+        "name": "Kayden FORD-JALBERT",
+        "lastName": "FORD-JALBERT",
+        "firstName": "Kayden",
+        "affiliation": "WL",
+        "competitorId": "111956"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 286,
+        "name": "Preston SIGSWORTH",
+        "lastName": "SIGSWORTH",
+        "firstName": "Preston",
+        "affiliation": "WL",
+        "competitorId": "105663"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 261,
+        "name": "Hugo Junior YANG",
+        "lastName": "YANG",
+        "firstName": "Hugo Junior",
+        "affiliation": "BURN",
+        "competitorId": "324386"
+      }
+    ]
+  },
+  {
+    "name": "14A",
+    "title": "14A - 1500m  Senior/Master (111m)",
+    "event": "14",
+    "heat": 1,
+    "group": "Senior/Master",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 288,
+        "name": "Zack THIBEAULT",
+        "lastName": "THIBEAULT",
+        "firstName": "Zack",
+        "affiliation": "LAN",
+        "competitorId": "118127"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 289,
+        "name": "Timothy MACDONALD",
+        "lastName": "MACDONALD",
+        "firstName": "Timothy",
+        "affiliation": "PEN",
+        "competitorId": "307676"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 287,
+        "name": "Jesse THIBEAULT",
+        "lastName": "THIBEAULT",
+        "firstName": "Jesse",
+        "affiliation": "LAN",
+        "competitorId": "118126"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 291,
+        "name": "Malcolm KENNETT",
+        "lastName": "KENNETT",
+        "firstName": "Malcolm",
+        "affiliation": "BURN",
+        "competitorId": "102574"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 162,
+        "name": "Diane SILZER",
+        "lastName": "SILZER",
+        "firstName": "Diane",
+        "affiliation": "BURN",
+        "competitorId": "104214"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 161,
+        "name": "Kim REID",
+        "lastName": "REID",
+        "firstName": "Kim",
+        "affiliation": "BURN",
+        "competitorId": "102721"
+      }
+    ]
+  },
+  {
+    "name": "14B",
+    "title": "14B - 1500m  Senior/Master (111m)",
+    "event": "14",
+    "heat": 2,
+    "group": "Senior/Master",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 290,
+        "name": "Kim KLAPSTEIN",
+        "lastName": "KLAPSTEIN",
+        "firstName": "Kim",
+        "affiliation": "SARM",
+        "competitorId": "104970"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 163,
+        "name": "Shione FRANCIS",
+        "lastName": "FRANCIS",
+        "firstName": "Shione",
+        "affiliation": "RICH",
+        "competitorId": "312668"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 164,
+        "name": "Soobin YIM",
+        "lastName": "YIM",
+        "firstName": "Soobin",
+        "affiliation": "BURN",
+        "competitorId": "311043"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 166,
+        "name": "Niamh MULLEN",
+        "lastName": "MULLEN",
+        "firstName": "Niamh",
+        "affiliation": "LAN",
+        "competitorId": "322964"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 167,
+        "name": "Jan ZURCHER",
+        "lastName": "ZURCHER",
+        "firstName": "Jan",
+        "affiliation": "PEN",
+        "competitorId": "320131"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 165,
+        "name": "Katya ZADOROZHNAYA",
+        "lastName": "ZADOROZHNAYA",
+        "firstName": "Katya",
+        "affiliation": "RICH",
+        "competitorId": "308712"
+      }
+    ]
+  },
+  {
+    "name": "14C",
+    "title": "14C - 1500m  Senior/Master (111m)",
+    "event": "14",
+    "heat": 3,
+    "group": "Senior/Master",
+    "length": 1500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 168,
+        "name": "Karen DOOLAN",
+        "lastName": "DOOLAN",
+        "firstName": "Karen",
+        "affiliation": "BURN",
+        "competitorId": "113311"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 293,
+        "name": "Hu BRIETKOPF",
+        "lastName": "BRIETKOPF",
+        "firstName": "Hu",
+        "affiliation": "BURN",
+        "competitorId": "320580"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 170,
+        "name": "Sophie BERIAULT",
+        "lastName": "BERIAULT",
+        "firstName": "Sophie",
+        "affiliation": "BURN",
+        "competitorId": "102557"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 294,
+        "name": "Andy WONG",
+        "lastName": "WONG",
+        "firstName": "Andy",
+        "affiliation": "BURN",
+        "competitorId": "104215"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 169,
+        "name": "Joanne JAHNS",
+        "lastName": "JAHNS",
+        "firstName": "Joanne",
+        "affiliation": "BURN",
+        "competitorId": "204242"
+      },
+      {
+        "startPosition": 6,
+        "helmetId": 295,
+        "name": "Adam ZHAO",
+        "lastName": "ZHAO",
+        "firstName": "Adam",
+        "affiliation": "BURN",
+        "competitorId": "303120"
+      }
+    ]
+  },
+  {
+    "name": "15A",
+    "title": "15A - 800m  Club Skaters Div 1 (100m)",
+    "event": "15",
+    "heat": 1,
+    "group": "Club Skaters Div 1",
+    "length": 800,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 212,
+        "name": "HARRISON WIEBE",
+        "lastName": "WIEBE",
+        "firstName": "HARRISON",
+        "affiliation": "KEL",
+        "competitorId": "300388"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 203,
+        "name": "Jayden LI",
+        "lastName": "LI",
+        "firstName": "Jayden",
+        "affiliation": "RICH",
+        "competitorId": "302965"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 102,
+        "name": "Kailey WONG",
+        "lastName": "WONG",
+        "firstName": "Kailey",
+        "affiliation": "RICH",
+        "competitorId": "312627"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 214,
+        "name": "Aiden KIM",
+        "lastName": "KIM",
+        "firstName": "Aiden",
+        "affiliation": "BURN",
+        "competitorId": "319047"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 208,
+        "name": "Jeremy LI",
+        "lastName": "LI",
+        "firstName": "Jeremy",
+        "affiliation": "RICH",
+        "competitorId": "300235"
+      }
+    ]
+  },
+  {
+    "name": "15B",
+    "title": "15B - 800m  Club Skaters Div 1 (100m)",
+    "event": "15",
+    "heat": 2,
+    "group": "Club Skaters Div 1",
+    "length": 800,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 104,
+        "name": "Gianna WONG",
+        "lastName": "WONG",
+        "firstName": "Gianna",
+        "affiliation": "RICH",
+        "competitorId": "312628"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 103,
+        "name": "Adalynn LIU",
+        "lastName": "LIU",
+        "firstName": "Adalynn",
+        "affiliation": "POCO",
+        "competitorId": "308159"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 201,
+        "name": "Anbo WANG",
+        "lastName": "WANG",
+        "firstName": "Anbo",
+        "affiliation": "VAN",
+        "competitorId": "308873"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 202,
+        "name": "Skyler Jino CHU",
+        "lastName": "CHU",
+        "firstName": "Skyler Jino",
+        "affiliation": "RICH",
+        "competitorId": "307141"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 211,
+        "name": "Isaac MEISL",
+        "lastName": "MEISL",
+        "firstName": "Isaac",
+        "affiliation": "PEN",
+        "competitorId": "309605"
+      }
+    ]
+  },
+  {
+    "name": "15C",
+    "title": "15C - 800m  Club Skaters Div 1 (100m)",
+    "event": "15",
+    "heat": 3,
+    "group": "Club Skaters Div 1",
+    "length": 800,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 213,
+        "name": "Felix DENNILL",
+        "lastName": "DENNILL",
+        "firstName": "Felix",
+        "affiliation": "SARD",
+        "competitorId": "314926"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 207,
+        "name": "Arlo EASON",
+        "lastName": "EASON",
+        "firstName": "Arlo",
+        "affiliation": "KEL",
+        "competitorId": "208670"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 101,
+        "name": "Seoeun KU",
+        "lastName": "KU",
+        "firstName": "Seoeun",
+        "affiliation": "POCO",
+        "competitorId": "303313"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 106,
+        "name": "Patience MATHEWSON",
+        "lastName": "MATHEWSON",
+        "firstName": "Patience",
+        "affiliation": "PEN",
+        "competitorId": "300705"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 206,
+        "name": "Luke LI",
+        "lastName": "LI",
+        "firstName": "Luke",
+        "affiliation": "POCO",
+        "competitorId": "310624"
+      }
+    ]
+  },
+  {
+    "name": "15D",
+    "title": "15D - 800m  Club Skaters Div 1 (100m)",
+    "event": "15",
+    "heat": 4,
+    "group": "Club Skaters Div 1",
+    "length": 800,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 105,
+        "name": "Ellie LEUNG",
+        "lastName": "LEUNG",
+        "firstName": "Ellie",
+        "affiliation": "RICH",
+        "competitorId": "323296"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 204,
+        "name": "Max HAAHEIM",
+        "lastName": "HAAHEIM",
+        "firstName": "Max",
+        "affiliation": "KEL",
+        "competitorId": "203879"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 210,
+        "name": "Oscar LIU",
+        "lastName": "LIU",
+        "firstName": "Oscar",
+        "affiliation": "POCO",
+        "competitorId": "314832"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 209,
+        "name": "Soren CASTELLAN",
+        "lastName": "CASTELLAN",
+        "firstName": "Soren",
+        "affiliation": "ESQ",
+        "competitorId": "307422"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 205,
+        "name": "Zhiji DONG",
+        "lastName": "DONG",
+        "firstName": "Zhiji",
+        "affiliation": "LAN",
+        "competitorId": "302589"
+      }
+    ]
+  },
+  {
+    "name": "16A",
+    "title": "16A - 800m  Club Skaters Div 2 (100m)",
+    "event": "16",
+    "heat": 1,
+    "group": "Club Skaters Div 2",
+    "length": 800,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 107,
+        "name": "Mariana FIQUITIVA DURAN",
+        "lastName": "FIQUITIVA DURAN",
+        "firstName": "Mariana",
+        "affiliation": "RM",
+        "competitorId": "318100"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 221,
+        "name": "Leo ZENG",
+        "lastName": "ZENG",
+        "firstName": "Leo",
+        "affiliation": "POCO",
+        "competitorId": "318259"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 215,
+        "name": "Logan KELLY-JALBERT",
+        "lastName": "KELLY-JALBERT",
+        "firstName": "Logan",
+        "affiliation": "WL",
+        "competitorId": "207060"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 113,
+        "name": "Kinsey HANK",
+        "lastName": "HANK",
+        "firstName": "Kinsey",
+        "affiliation": "KEL",
+        "competitorId": "208851"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 225,
+        "name": "Jyun LI",
+        "lastName": "LI",
+        "firstName": "Jyun",
+        "affiliation": "BURN",
+        "competitorId": "321756"
+      }
+    ]
+  },
+  {
+    "name": "16B",
+    "title": "16B - 800m  Club Skaters Div 2 (100m)",
+    "event": "16",
+    "heat": 2,
+    "group": "Club Skaters Div 2",
+    "length": 800,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 217,
+        "name": "Timothy SONG",
+        "lastName": "SONG",
+        "firstName": "Timothy",
+        "affiliation": "POCO",
+        "competitorId": "301016"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 112,
+        "name": "Mykenzie ACTON",
+        "lastName": "ACTON",
+        "firstName": "Mykenzie",
+        "affiliation": "KEL",
+        "competitorId": "201383"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 108,
+        "name": "Maya ANTOINE",
+        "lastName": "ANTOINE",
+        "firstName": "Maya",
+        "affiliation": "KAM",
+        "competitorId": "207056"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 115,
+        "name": "Avery WALSH",
+        "lastName": "WALSH",
+        "firstName": "Avery",
+        "affiliation": "PG",
+        "competitorId": "307538"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 222,
+        "name": "Allen LI",
+        "lastName": "LI",
+        "firstName": "Allen",
+        "affiliation": "RICH",
+        "competitorId": "319613"
+      }
+    ]
+  },
+  {
+    "name": "16C",
+    "title": "16C - 800m  Club Skaters Div 2 (100m)",
+    "event": "16",
+    "heat": 3,
+    "group": "Club Skaters Div 2",
+    "length": 800,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 114,
+        "name": "Anna MCINTOSH",
+        "lastName": "MCINTOSH",
+        "firstName": "Anna",
+        "affiliation": "PG",
+        "competitorId": "300371"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 220,
+        "name": "Waylan MATTE",
+        "lastName": "MATTE",
+        "firstName": "Waylan",
+        "affiliation": "PG",
+        "competitorId": "319604"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 218,
+        "name": "Lorcan DUFFY",
+        "lastName": "DUFFY",
+        "firstName": "Lorcan",
+        "affiliation": "BURN",
+        "competitorId": "305555"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 109,
+        "name": "Seri LEE",
+        "lastName": "LEE",
+        "firstName": "Seri",
+        "affiliation": "RICH",
+        "competitorId": "309442"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 219,
+        "name": "Kynton POON",
+        "lastName": "POON",
+        "firstName": "Kynton",
+        "affiliation": "RICH",
+        "competitorId": "323364"
+      }
+    ]
+  },
+  {
+    "name": "16D",
+    "title": "16D - 800m  Club Skaters Div 2 (100m)",
+    "event": "16",
+    "heat": 4,
+    "group": "Club Skaters Div 2",
+    "length": 800,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 216,
+        "name": "Ethan REN",
+        "lastName": "REN",
+        "firstName": "Ethan",
+        "affiliation": "LAN",
+        "competitorId": "323427"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 224,
+        "name": "Elias SONG",
+        "lastName": "SONG",
+        "firstName": "Elias",
+        "affiliation": "KEL",
+        "competitorId": "307521"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 110,
+        "name": "Leyla UNLU",
+        "lastName": "UNLU",
+        "firstName": "Leyla",
+        "affiliation": "PEN",
+        "competitorId": "307309"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 111,
+        "name": "Miyako FREWIN",
+        "lastName": "FREWIN",
+        "firstName": "Miyako",
+        "affiliation": "VAN",
+        "competitorId": "302733"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 223,
+        "name": "Vincent SIKORA",
+        "lastName": "SIKORA",
+        "firstName": "Vincent",
+        "affiliation": "KAM",
+        "competitorId": "313589"
+      }
+    ]
+  },
+  {
+    "name": "19A",
+    "title": "19A - 500m  Neo Jr/Jr Female (111m)",
+    "event": "19",
+    "heat": 1,
+    "group": "Neo Jr/Jr Female",
+    "length": 500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 160,
+        "name": "Faith GORRY",
+        "lastName": "GORRY",
+        "firstName": "Faith",
+        "affiliation": "VAN",
+        "competitorId": "317386"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 147,
+        "name": "Gabrielle OETOMO",
+        "lastName": "OETOMO",
+        "firstName": "Gabrielle",
+        "affiliation": "BURN",
+        "competitorId": "103775"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 153,
+        "name": "Keanna ROYCE",
+        "lastName": "ROYCE",
+        "firstName": "Keanna",
+        "affiliation": "POCO",
+        "competitorId": "316823"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 152,
+        "name": "Dain SONG",
+        "lastName": "SONG",
+        "firstName": "Dain",
+        "affiliation": "POCO",
+        "competitorId": "206170"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 159,
+        "name": "Ema PEREZ",
+        "lastName": "PEREZ",
+        "firstName": "Ema",
+        "affiliation": "ESQ",
+        "competitorId": "306133"
+      }
+    ]
+  },
+  {
+    "name": "19B",
+    "title": "19B - 500m  Neo Jr/Jr Female (111m)",
+    "event": "19",
+    "heat": 2,
+    "group": "Neo Jr/Jr Female",
+    "length": 500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 151,
+        "name": "Meena LITT",
+        "lastName": "LITT",
+        "firstName": "Meena",
+        "affiliation": "KAM",
+        "competitorId": "103880"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 148,
+        "name": "Rachael BUTT",
+        "lastName": "BUTT",
+        "firstName": "Rachael",
+        "affiliation": "LAN",
+        "competitorId": "101167"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 158,
+        "name": "Laylah SADEGUR",
+        "lastName": "SADEGUR",
+        "firstName": "Laylah",
+        "affiliation": "KAM",
+        "competitorId": "101489"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 154,
+        "name": "Alivia LAM",
+        "lastName": "LAM",
+        "firstName": "Alivia",
+        "affiliation": "RICH",
+        "competitorId": "207180"
+      }
+    ]
+  },
+  {
+    "name": "19C",
+    "title": "19C - 500m  Neo Jr/Jr Female (111m)",
+    "event": "19",
+    "heat": 3,
+    "group": "Neo Jr/Jr Female",
+    "length": 500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 150,
+        "name": "Sophia CAIRO MARTINEZ",
+        "lastName": "CAIRO MARTINEZ",
+        "firstName": "Sophia",
+        "affiliation": "BURN",
+        "competitorId": "303404"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 155,
+        "name": "Mya ONOS",
+        "lastName": "ONOS",
+        "firstName": "Mya",
+        "affiliation": "RM",
+        "competitorId": "102636"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 157,
+        "name": "Nora CALDER",
+        "lastName": "CALDER",
+        "firstName": "Nora",
+        "affiliation": "MISS",
+        "competitorId": "207161"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 149,
+        "name": "Nora WAGNER",
+        "lastName": "WAGNER",
+        "firstName": "Nora",
+        "affiliation": "BURN",
+        "competitorId": "102570"
+      }
+    ]
+  },
+  {
+    "name": "20A",
+    "title": "20A - 500m  Neo Jr/Jr Male (111m)",
+    "event": "20",
+    "heat": 1,
+    "group": "Neo Jr/Jr Male",
+    "length": 500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 271,
+        "name": "Arthur YI",
+        "lastName": "YI",
+        "firstName": "Arthur",
+        "affiliation": "POCO",
+        "competitorId": "303274"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 270,
+        "name": "Tilman ASTOR",
+        "lastName": "ASTOR",
+        "firstName": "Tilman",
+        "affiliation": "RICH",
+        "competitorId": "300232"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 261,
+        "name": "Hugo Junior YANG",
+        "lastName": "YANG",
+        "firstName": "Hugo Junior",
+        "affiliation": "BURN",
+        "competitorId": "324386"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 282,
+        "name": "Samuel O'BRIEN",
+        "lastName": "O'BRIEN",
+        "firstName": "Samuel",
+        "affiliation": "BURN",
+        "competitorId": "320043"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 281,
+        "name": "Yannick WIGHT",
+        "lastName": "WIGHT",
+        "firstName": "Yannick",
+        "affiliation": "LAN",
+        "competitorId": "120256"
+      }
+    ]
+  },
+  {
+    "name": "20B",
+    "title": "20B - 500m  Neo Jr/Jr Male (111m)",
+    "event": "20",
+    "heat": 2,
+    "group": "Neo Jr/Jr Male",
+    "length": 500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 280,
+        "name": "Aaditya RAJESH",
+        "lastName": "RAJESH",
+        "firstName": "Aaditya",
+        "affiliation": "LAN",
+        "competitorId": "210265"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 272,
+        "name": "Jacob BEESLEY",
+        "lastName": "BEESLEY",
+        "firstName": "Jacob",
+        "affiliation": "KAM",
+        "competitorId": "117974"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 262,
+        "name": "Heath KENNETT",
+        "lastName": "KENNETT",
+        "firstName": "Heath",
+        "affiliation": "BURN",
+        "competitorId": "102573"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 269,
+        "name": "Jashjit CHAUHAN",
+        "lastName": "CHAUHAN",
+        "firstName": "Jashjit",
+        "affiliation": "MAT",
+        "competitorId": "303300"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 283,
+        "name": "Kayden FORD-JALBERT",
+        "lastName": "FORD-JALBERT",
+        "firstName": "Kayden",
+        "affiliation": "WL",
+        "competitorId": "111956"
+      }
+    ]
+  },
+  {
+    "name": "20C",
+    "title": "20C - 500m  Neo Jr/Jr Male (111m)",
+    "event": "20",
+    "heat": 3,
+    "group": "Neo Jr/Jr Male",
+    "length": 500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 284,
+        "name": "Carter RAE",
+        "lastName": "RAE",
+        "firstName": "Carter",
+        "affiliation": "SARD",
+        "competitorId": "300320"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 273,
+        "name": "Adam GYORI",
+        "lastName": "GYORI",
+        "firstName": "Adam",
+        "affiliation": "BURN",
+        "competitorId": "310599"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 279,
+        "name": "Callum STUART",
+        "lastName": "STUART",
+        "firstName": "Callum",
+        "affiliation": "KEL",
+        "competitorId": "305777"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 268,
+        "name": "Connor MASON BENNETT",
+        "lastName": "MASON BENNETT",
+        "firstName": "Connor",
+        "affiliation": "FSJ",
+        "competitorId": "300284"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 263,
+        "name": "Kai BARNETT",
+        "lastName": "BARNETT",
+        "firstName": "Kai",
+        "affiliation": "VAN",
+        "competitorId": "106207"
+      }
+    ]
+  },
+  {
+    "name": "20D",
+    "title": "20D - 500m  Neo Jr/Jr Male (111m)",
+    "event": "20",
+    "heat": 4,
+    "group": "Neo Jr/Jr Male",
+    "length": 500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 267,
+        "name": "Matthew KAM",
+        "lastName": "KAM",
+        "firstName": "Matthew",
+        "affiliation": "RICH",
+        "competitorId": "311493"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 264,
+        "name": "Andy LIU",
+        "lastName": "LIU",
+        "firstName": "Andy",
+        "affiliation": "RICH",
+        "competitorId": "300255"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 275,
+        "name": "Xander HAAHEIM",
+        "lastName": "HAAHEIM",
+        "firstName": "Xander",
+        "affiliation": "KEL",
+        "competitorId": "105403"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 285,
+        "name": "Sidney CAMPBELL",
+        "lastName": "CAMPBELL",
+        "firstName": "Sidney",
+        "affiliation": "BURN",
+        "competitorId": "303332"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 278,
+        "name": "Derin MCKINNON-BUBEROGLU",
+        "lastName": "MCKINNON-BUBEROGLU",
+        "firstName": "Derin",
+        "affiliation": "ESQ",
+        "competitorId": "105976"
+      }
+    ]
+  },
+  {
+    "name": "20E",
+    "title": "20E - 500m  Neo Jr/Jr Male (111m)",
+    "event": "20",
+    "heat": 5,
+    "group": "Neo Jr/Jr Male",
+    "length": 500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 266,
+        "name": "Finley LUDEMAN",
+        "lastName": "LUDEMAN",
+        "firstName": "Finley",
+        "affiliation": "RM",
+        "competitorId": "104306"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 286,
+        "name": "Preston SIGSWORTH",
+        "lastName": "SIGSWORTH",
+        "firstName": "Preston",
+        "affiliation": "WL",
+        "competitorId": "105663"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 276,
+        "name": "Jared ROBERTS",
+        "lastName": "ROBERTS",
+        "firstName": "Jared",
+        "affiliation": "KAM",
+        "competitorId": "101487"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 277,
+        "name": "Cyrus HO",
+        "lastName": "HO",
+        "firstName": "Cyrus",
+        "affiliation": "RICH",
+        "competitorId": "213237"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 265,
+        "name": "Louie TOTH",
+        "lastName": "TOTH",
+        "firstName": "Louie",
+        "affiliation": "POCO",
+        "competitorId": "300813"
+      }
+    ]
+  },
+  {
+    "name": "21A",
+    "title": "21A - 500m  Senior/Master (111m)",
+    "event": "21",
+    "heat": 1,
+    "group": "Senior/Master",
+    "length": 500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 163,
+        "name": "Shione FRANCIS",
+        "lastName": "FRANCIS",
+        "firstName": "Shione",
+        "affiliation": "RICH",
+        "competitorId": "312668"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 287,
+        "name": "Jesse THIBEAULT",
+        "lastName": "THIBEAULT",
+        "firstName": "Jesse",
+        "affiliation": "LAN",
+        "competitorId": "118126"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 295,
+        "name": "Adam ZHAO",
+        "lastName": "ZHAO",
+        "firstName": "Adam",
+        "affiliation": "BURN",
+        "competitorId": "303120"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 165,
+        "name": "Katya ZADOROZHNAYA",
+        "lastName": "ZADOROZHNAYA",
+        "firstName": "Katya",
+        "affiliation": "RICH",
+        "competitorId": "308712"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 164,
+        "name": "Soobin YIM",
+        "lastName": "YIM",
+        "firstName": "Soobin",
+        "affiliation": "BURN",
+        "competitorId": "311043"
+      }
+    ]
+  },
+  {
+    "name": "21B",
+    "title": "21B - 500m  Senior/Master (111m)",
+    "event": "21",
+    "heat": 2,
+    "group": "Senior/Master",
+    "length": 500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 291,
+        "name": "Malcolm KENNETT",
+        "lastName": "KENNETT",
+        "firstName": "Malcolm",
+        "affiliation": "BURN",
+        "competitorId": "102574"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 166,
+        "name": "Niamh MULLEN",
+        "lastName": "MULLEN",
+        "firstName": "Niamh",
+        "affiliation": "LAN",
+        "competitorId": "322964"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 288,
+        "name": "Zack THIBEAULT",
+        "lastName": "THIBEAULT",
+        "firstName": "Zack",
+        "affiliation": "LAN",
+        "competitorId": "118127"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 169,
+        "name": "Joanne JAHNS",
+        "lastName": "JAHNS",
+        "firstName": "Joanne",
+        "affiliation": "BURN",
+        "competitorId": "204242"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 170,
+        "name": "Sophie BERIAULT",
+        "lastName": "BERIAULT",
+        "firstName": "Sophie",
+        "affiliation": "BURN",
+        "competitorId": "102557"
+      }
+    ]
+  },
+  {
+    "name": "21C",
+    "title": "21C - 500m  Senior/Master (111m)",
+    "event": "21",
+    "heat": 3,
+    "group": "Senior/Master",
+    "length": 500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 290,
+        "name": "Kim KLAPSTEIN",
+        "lastName": "KLAPSTEIN",
+        "firstName": "Kim",
+        "affiliation": "SARM",
+        "competitorId": "104970"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 294,
+        "name": "Andy WONG",
+        "lastName": "WONG",
+        "firstName": "Andy",
+        "affiliation": "BURN",
+        "competitorId": "104215"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 161,
+        "name": "Kim REID",
+        "lastName": "REID",
+        "firstName": "Kim",
+        "affiliation": "BURN",
+        "competitorId": "102721"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 167,
+        "name": "Jan ZURCHER",
+        "lastName": "ZURCHER",
+        "firstName": "Jan",
+        "affiliation": "PEN",
+        "competitorId": "320131"
+      }
+    ]
+  },
+  {
+    "name": "21D",
+    "title": "21D - 500m  Senior/Master (111m)",
+    "event": "21",
+    "heat": 4,
+    "group": "Senior/Master",
+    "length": 500,
+    "track": 111,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 162,
+        "name": "Diane SILZER",
+        "lastName": "SILZER",
+        "firstName": "Diane",
+        "affiliation": "BURN",
+        "competitorId": "104214"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 293,
+        "name": "Hu BRIETKOPF",
+        "lastName": "BRIETKOPF",
+        "firstName": "Hu",
+        "affiliation": "BURN",
+        "competitorId": "320580"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 289,
+        "name": "Timothy MACDONALD",
+        "lastName": "MACDONALD",
+        "firstName": "Timothy",
+        "affiliation": "PEN",
+        "competitorId": "307676"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 168,
+        "name": "Karen DOOLAN",
+        "lastName": "DOOLAN",
+        "firstName": "Karen",
+        "affiliation": "BURN",
+        "competitorId": "113311"
+      }
+    ]
+  },
+  {
+    "name": "22A",
+    "title": "22A - 800m  Club Skaters Div 1 (100m)",
+    "event": "22",
+    "heat": 1,
+    "group": "Club Skaters Div 1",
+    "length": 800,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 101,
+        "name": "Seoeun KU",
+        "lastName": "KU",
+        "firstName": "Seoeun",
+        "affiliation": "POCO",
+        "competitorId": "303313"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 201,
+        "name": "Anbo WANG",
+        "lastName": "WANG",
+        "firstName": "Anbo",
+        "affiliation": "VAN",
+        "competitorId": "308873"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 202,
+        "name": "Skyler Jino CHU",
+        "lastName": "CHU",
+        "firstName": "Skyler Jino",
+        "affiliation": "RICH",
+        "competitorId": "307141"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 205,
+        "name": "Zhiji DONG",
+        "lastName": "DONG",
+        "firstName": "Zhiji",
+        "affiliation": "LAN",
+        "competitorId": "302589"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 203,
+        "name": "Jayden LI",
+        "lastName": "LI",
+        "firstName": "Jayden",
+        "affiliation": "RICH",
+        "competitorId": "302965"
+      }
+    ]
+  },
+  {
+    "name": "22B",
+    "title": "22B - 800m  Club Skaters Div 1 (100m)",
+    "event": "22",
+    "heat": 2,
+    "group": "Club Skaters Div 1",
+    "length": 800,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 204,
+        "name": "Max HAAHEIM",
+        "lastName": "HAAHEIM",
+        "firstName": "Max",
+        "affiliation": "KEL",
+        "competitorId": "203879"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 206,
+        "name": "Luke LI",
+        "lastName": "LI",
+        "firstName": "Luke",
+        "affiliation": "POCO",
+        "competitorId": "310624"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 208,
+        "name": "Jeremy LI",
+        "lastName": "LI",
+        "firstName": "Jeremy",
+        "affiliation": "RICH",
+        "competitorId": "300235"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 102,
+        "name": "Kailey WONG",
+        "lastName": "WONG",
+        "firstName": "Kailey",
+        "affiliation": "RICH",
+        "competitorId": "312627"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 207,
+        "name": "Arlo EASON",
+        "lastName": "EASON",
+        "firstName": "Arlo",
+        "affiliation": "KEL",
+        "competitorId": "208670"
+      }
+    ]
+  },
+  {
+    "name": "22C",
+    "title": "22C - 800m  Club Skaters Div 1 (100m)",
+    "event": "22",
+    "heat": 3,
+    "group": "Club Skaters Div 1",
+    "length": 800,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 209,
+        "name": "Soren CASTELLAN",
+        "lastName": "CASTELLAN",
+        "firstName": "Soren",
+        "affiliation": "ESQ",
+        "competitorId": "307422"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 210,
+        "name": "Oscar LIU",
+        "lastName": "LIU",
+        "firstName": "Oscar",
+        "affiliation": "POCO",
+        "competitorId": "314832"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 103,
+        "name": "Adalynn LIU",
+        "lastName": "LIU",
+        "firstName": "Adalynn",
+        "affiliation": "POCO",
+        "competitorId": "308159"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 212,
+        "name": "HARRISON WIEBE",
+        "lastName": "WIEBE",
+        "firstName": "HARRISON",
+        "affiliation": "KEL",
+        "competitorId": "300388"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 213,
+        "name": "Felix DENNILL",
+        "lastName": "DENNILL",
+        "firstName": "Felix",
+        "affiliation": "SARD",
+        "competitorId": "314926"
+      }
+    ]
+  },
+  {
+    "name": "22D",
+    "title": "22D - 800m  Club Skaters Div 1 (100m)",
+    "event": "22",
+    "heat": 4,
+    "group": "Club Skaters Div 1",
+    "length": 800,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 105,
+        "name": "Ellie LEUNG",
+        "lastName": "LEUNG",
+        "firstName": "Ellie",
+        "affiliation": "RICH",
+        "competitorId": "323296"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 104,
+        "name": "Gianna WONG",
+        "lastName": "WONG",
+        "firstName": "Gianna",
+        "affiliation": "RICH",
+        "competitorId": "312628"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 214,
+        "name": "Aiden KIM",
+        "lastName": "KIM",
+        "firstName": "Aiden",
+        "affiliation": "BURN",
+        "competitorId": "319047"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 211,
+        "name": "Isaac MEISL",
+        "lastName": "MEISL",
+        "firstName": "Isaac",
+        "affiliation": "PEN",
+        "competitorId": "309605"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 106,
+        "name": "Patience MATHEWSON",
+        "lastName": "MATHEWSON",
+        "firstName": "Patience",
+        "affiliation": "PEN",
+        "competitorId": "300705"
+      }
+    ]
+  },
+  {
+    "name": "23A",
+    "title": "23A - 800m  Club Skaters Div 2 (100m)",
+    "event": "23",
+    "heat": 1,
+    "group": "Club Skaters Div 2",
+    "length": 800,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 219,
+        "name": "Kynton POON",
+        "lastName": "POON",
+        "firstName": "Kynton",
+        "affiliation": "RICH",
+        "competitorId": "323364"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 107,
+        "name": "Mariana FIQUITIVA DURAN",
+        "lastName": "FIQUITIVA DURAN",
+        "firstName": "Mariana",
+        "affiliation": "RM",
+        "competitorId": "318100"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 110,
+        "name": "Leyla UNLU",
+        "lastName": "UNLU",
+        "firstName": "Leyla",
+        "affiliation": "PEN",
+        "competitorId": "307309"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 217,
+        "name": "Timothy SONG",
+        "lastName": "SONG",
+        "firstName": "Timothy",
+        "affiliation": "POCO",
+        "competitorId": "301016"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 108,
+        "name": "Maya ANTOINE",
+        "lastName": "ANTOINE",
+        "firstName": "Maya",
+        "affiliation": "KAM",
+        "competitorId": "207056"
+      }
+    ]
+  },
+  {
+    "name": "23B",
+    "title": "23B - 800m  Club Skaters Div 2 (100m)",
+    "event": "23",
+    "heat": 2,
+    "group": "Club Skaters Div 2",
+    "length": 800,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 112,
+        "name": "Mykenzie ACTON",
+        "lastName": "ACTON",
+        "firstName": "Mykenzie",
+        "affiliation": "KEL",
+        "competitorId": "201383"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 109,
+        "name": "Seri LEE",
+        "lastName": "LEE",
+        "firstName": "Seri",
+        "affiliation": "RICH",
+        "competitorId": "309442"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 216,
+        "name": "Ethan REN",
+        "lastName": "REN",
+        "firstName": "Ethan",
+        "affiliation": "LAN",
+        "competitorId": "323427"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 218,
+        "name": "Lorcan DUFFY",
+        "lastName": "DUFFY",
+        "firstName": "Lorcan",
+        "affiliation": "BURN",
+        "competitorId": "305555"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 221,
+        "name": "Leo ZENG",
+        "lastName": "ZENG",
+        "firstName": "Leo",
+        "affiliation": "POCO",
+        "competitorId": "318259"
+      }
+    ]
+  },
+  {
+    "name": "23C",
+    "title": "23C - 800m  Club Skaters Div 2 (100m)",
+    "event": "23",
+    "heat": 3,
+    "group": "Club Skaters Div 2",
+    "length": 800,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 111,
+        "name": "Miyako FREWIN",
+        "lastName": "FREWIN",
+        "firstName": "Miyako",
+        "affiliation": "VAN",
+        "competitorId": "302733"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 224,
+        "name": "Elias SONG",
+        "lastName": "SONG",
+        "firstName": "Elias",
+        "affiliation": "KEL",
+        "competitorId": "307521"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 220,
+        "name": "Waylan MATTE",
+        "lastName": "MATTE",
+        "firstName": "Waylan",
+        "affiliation": "PG",
+        "competitorId": "319604"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 222,
+        "name": "Allen LI",
+        "lastName": "LI",
+        "firstName": "Allen",
+        "affiliation": "RICH",
+        "competitorId": "319613"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 113,
+        "name": "Kinsey HANK",
+        "lastName": "HANK",
+        "firstName": "Kinsey",
+        "affiliation": "KEL",
+        "competitorId": "208851"
+      }
+    ]
+  },
+  {
+    "name": "23D",
+    "title": "23D - 800m  Club Skaters Div 2 (100m)",
+    "event": "23",
+    "heat": 4,
+    "group": "Club Skaters Div 2",
+    "length": 800,
+    "track": 100,
+    "lanes": [
+      {
+        "startPosition": 1,
+        "helmetId": 215,
+        "name": "Logan KELLY-JALBERT",
+        "lastName": "KELLY-JALBERT",
+        "firstName": "Logan",
+        "affiliation": "WL",
+        "competitorId": "207060"
+      },
+      {
+        "startPosition": 2,
+        "helmetId": 225,
+        "name": "Jyun LI",
+        "lastName": "LI",
+        "firstName": "Jyun",
+        "affiliation": "BURN",
+        "competitorId": "321756"
+      },
+      {
+        "startPosition": 3,
+        "helmetId": 223,
+        "name": "Vincent SIKORA",
+        "lastName": "SIKORA",
+        "firstName": "Vincent",
+        "affiliation": "KAM",
+        "competitorId": "313589"
+      },
+      {
+        "startPosition": 4,
+        "helmetId": 114,
+        "name": "Anna MCINTOSH",
+        "lastName": "MCINTOSH",
+        "firstName": "Anna",
+        "affiliation": "PG",
+        "competitorId": "300371"
+      },
+      {
+        "startPosition": 5,
+        "helmetId": 115,
+        "name": "Avery WALSH",
+        "lastName": "WALSH",
+        "firstName": "Avery",
+        "affiliation": "PG",
+        "competitorId": "307538"
+      }
+    ]
+  }
+]
